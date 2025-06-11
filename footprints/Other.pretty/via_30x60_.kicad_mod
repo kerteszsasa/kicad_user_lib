@@ -1,0 +1,73 @@
+(footprint "via_30x60_"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.875 0)
+		(layer "F.SilkS")
+		(uuid "f7d450e1-ffd1-4897-8ca1-7d4a52baf3f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "via_30x60_"
+		(at 0 3.875 0)
+		(layer "F.Fab")
+		(uuid "febb4681-61dc-44da-bebd-2bd330bc90b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0aac335-5e97-41a9-81d7-6317b5bb7d9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "653749f4-4197-45f8-aee5-e5b858a4a759")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.048)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ad051af8-bd31-4fdb-a0cd-407c050b8ca2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "837a2a3c-899b-4cfd-9940-c109469addbb")
+	)
+	(embedded_fonts no)
+)

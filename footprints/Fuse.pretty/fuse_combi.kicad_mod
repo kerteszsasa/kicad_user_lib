@@ -1,0 +1,82 @@
+(footprint "fuse_combi"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD n Throughole")
+	(property "Reference" "REF**"
+		(at 1.3335 -4.256 0)
+		(layer "F.SilkS")
+		(uuid "a61c420d-6d27-4278-8520-6f7d98080f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "fuse_combi"
+		(at 1.3335 4.256 0)
+		(layer "F.Fab")
+		(uuid "892879d4-a5a8-488d-ba8d-5eebb6e425aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e59b14c-799b-47a2-a480-c93a608ae237")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e58966c-f93a-4217-b45e-501a84f6dbe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.651)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "799a2d98-5cd2-4e6f-8752-c42d1009f440")
+	)
+	(pad "1" thru_hole rect
+		(at 2.667 -2.54)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74d612d9-e2dd-41fc-8c2c-b4d672281e35")
+	)
+	(pad "2" smd rect
+		(at 0 1.651)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd4bef26-4083-45ec-aac6-6dae007f2995")
+	)
+	(pad "2" thru_hole rect
+		(at 2.667 2.54)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2689e6fe-4a39-41cc-94b0-17beb3d7ad18")
+	)
+	(embedded_fonts no)
+)

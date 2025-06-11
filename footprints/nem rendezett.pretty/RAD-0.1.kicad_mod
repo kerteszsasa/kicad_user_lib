@@ -1,0 +1,112 @@
+(footprint "RAD-0.1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial Cap, Thru-Hole; 2 Leads; 0.1 in Pin Spacing")
+	(property "Reference" "REF**"
+		(at 0 -2.07 0)
+		(layer "F.SilkS")
+		(uuid "5abfe2ac-ff80-49ab-acfa-f925b8b068d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RAD-0.1"
+		(at 0 2.07 0)
+		(layer "F.Fab")
+		(uuid "28fc5584-edf7-45e4-a409-6df4100d52db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3688be44-071c-4920-a181-97623414b1bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c75b16f-aab4-4c29-9ec8-50673596beea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.54 -1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "826ba248-ce6d-42a7-a3a3-281f69877b56")
+	)
+	(fp_line
+		(start -2.54 1.27)
+		(end -2.54 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a19da34-1f35-443f-993d-fcb715555889")
+	)
+	(fp_line
+		(start -2.54 1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baafc70a-3844-4535-ab89-af43b807fde3")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db6403f-13b7-48b5-8501-f7e3e7eec429")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bc6ad2cf-45a3-4a58-a860-275253acb64c")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "fd71d082-47dd-4a2c-af17-676fde8a4b40")
+	)
+	(embedded_fonts no)
+)

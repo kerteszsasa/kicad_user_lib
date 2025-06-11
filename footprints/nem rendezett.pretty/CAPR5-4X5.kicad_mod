@@ -1,0 +1,93 @@
+(footprint "CAPR5-4X5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor; 2 Leads")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "0bd782f8-50e3-4037-a9ee-6059df59d699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPR5-4X5"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "37f74678-9894-474e-812f-1fabb03e0016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1577e6af-8b30-4dfd-ad06-1e25288dfb07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52adb87-2b8a-4574-b137-a96ab5a2e871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start -1.68651 -1.075011)
+		(mid 0.138513 -1.995198)
+		(end 1.818888 -0.831673)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc69dc45-dfbb-46eb-aef8-7f1db976e3a4")
+	)
+	(fp_arc
+		(start 1.818889 0.831673)
+		(mid 0.138513 1.995199)
+		(end -1.68651 1.075011)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92b20c6c-119e-4f26-8230-ed78c05b9df8")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 -0.00001)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1732d7f1-1738-4d0f-bdc7-5c6c16b5561a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0.00001)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4c158c00-ccc1-4dcf-b030-edfc07724dc6")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,185 @@
+(footprint "POLAR0.8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Polarized Capacitor; 2 Leads")
+	(property "Reference" "REF**"
+		(at 0 -3.34 0)
+		(layer "F.SilkS")
+		(uuid "4db1677f-019d-4581-8bb9-7e1ead00a82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "POLAR0.8"
+		(at 0 3.34 0)
+		(layer "F.Fab")
+		(uuid "deee29ec-0abc-4e34-906c-f2e9541b704a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68fc2b3e-cbea-49c6-b660-1d385349dcfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bbace12-685f-4a3b-b0d0-f5a38efcec7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.636 0)
+		(end -7.62 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dfa8122-9b78-498b-b89d-28e02c7a5968")
+	)
+	(fp_line
+		(start -6.35 -2.54)
+		(end 6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52f0b39b-da9e-4e2f-8dc9-35253ad70d46")
+	)
+	(fp_line
+		(start -6.35 2.54)
+		(end -6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c7cf175-0330-4300-8353-2362c95d7141")
+	)
+	(fp_line
+		(start -6.35 2.54)
+		(end 6.35 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0f91f5a-c0da-4b5f-b188-f464ca55d108")
+	)
+	(fp_line
+		(start 6.35 -1.27)
+		(end 7.62 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e196c13-1d5f-47b1-893c-44e49958f934")
+	)
+	(fp_line
+		(start 6.35 1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f634fa54-0cc4-42ca-90c4-6c62567670b7")
+	)
+	(fp_line
+		(start 6.35 2.54)
+		(end 6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21f7e986-38be-4553-a133-f55226dd938b")
+	)
+	(fp_line
+		(start 7.62 0)
+		(end 8.636 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ff5ff3e-06d5-4cf9-9538-4e4b2c1487eb")
+	)
+	(fp_line
+		(start 7.62 1.27)
+		(end 7.62 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5db1d65c-0fbd-4690-ae2a-398110a0aedd")
+	)
+	(fp_arc
+		(start -6.35 1.27)
+		(mid -7.62 0)
+		(end -6.35 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e69cb1b5-c28b-4eca-8fc1-a78b1b250bd6")
+	)
+	(fp_text user "+"
+		(at 9.652 -0.76625 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d04b3aa8-75c8-4960-9053-a9e827a8b9ca")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1223ce8f-cf36-4093-a98e-08f28225be61")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "dabf1b48-bdbe-42a5-85ab-838460105dcb")
+	)
+	(embedded_fonts no)
+)

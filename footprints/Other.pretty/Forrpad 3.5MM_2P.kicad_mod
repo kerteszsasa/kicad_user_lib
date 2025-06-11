@@ -1,0 +1,126 @@
+(footprint "Forrpad 3.5MM_2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 pólusú")
+	(property "Reference" "REF**"
+		(at 0.0267 -3.0415 0)
+		(layer "F.SilkS")
+		(uuid "4e6bd140-7c5e-4743-b07e-1f72b478df44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Forrpad 3.5MM_2P"
+		(at 0.0267 4.0735 0)
+		(layer "F.Fab")
+		(uuid "98152ba7-89ae-431a-bdda-0d4f2e6ac17a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ccc9944-f53f-4b91-bbf2-ec805a30a1f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae9f44e-3e8a-4360-98a2-3c353f9e4184")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.4798 -2.278)
+		(end 3.5332 -2.278)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf7ba278-a867-423d-84bb-840f3f96b218")
+	)
+	(fp_line
+		(start -3.4798 3.31)
+		(end -3.4798 -2.278)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fd72265-a460-4098-93d9-15d7cbc16f53")
+	)
+	(fp_line
+		(start -3.4798 3.31)
+		(end 3.5332 3.31)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d73cb496-0ad5-4c7c-bec2-eb49b7a1c849")
+	)
+	(fp_line
+		(start 3.5332 3.31)
+		(end 3.5332 -2.278)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b769140-fc4f-42fb-b1f8-9fe454b3afa4")
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 -0.5 180)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "29166cbc-e498-4312-bba3-2fb6d462857c")
+	)
+	(pad "1" smd oval
+		(at -1.75 0.5 270)
+		(size 5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92a05c03-ceab-4447-83fa-a37c4f2258aa")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 -0.5 180)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "6e6f67e6-180d-408d-b34f-0f4bef45bdd0")
+	)
+	(pad "2" smd oval
+		(at 1.75 0.5 270)
+		(size 5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8213e86-8047-45e9-ae34-2225fdb9e17d")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,70 @@
+(footprint "SMD_jmp_10mil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "osszeonozasra")
+	(property "Reference" "REF**"
+		(at 0.635 -1.208 0)
+		(layer "F.SilkS")
+		(uuid "31ec2e3b-7941-4d29-84fd-67c676500cec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD_jmp_10mil"
+		(at 0.635 1.208 0)
+		(layer "F.Fab")
+		(uuid "870adb33-61af-40eb-a8cf-f9cea0552ee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12657438-ba03-4054-82a6-c5b68a88c61d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18e070c0-c14b-40e1-bc42-242d183d0b81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "6d575262-4455-42c6-9400-252896346e4a")
+	)
+	(pad "2" smd rect
+		(at 1.27 0)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(uuid "f57c46ce-3341-435b-b44a-5406e6a0f4a5")
+	)
+	(embedded_fonts no)
+)

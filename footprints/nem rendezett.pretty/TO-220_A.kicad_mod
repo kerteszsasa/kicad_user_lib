@@ -1,0 +1,147 @@
+(footprint "TO-220_A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO, Thru-Hole, Vertical, Heatsink Mounted; 3 In-Line Leads (1 Absent); Pitch 2.54 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.79999 0)
+		(layer "F.SilkS")
+		(uuid "abf5658d-c14b-4781-a15c-2c00ab78f592")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220_A"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "8f5142f9-e6e6-4d03-a0a6-92f984414c25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89d27104-f69e-4143-aecf-4a84e8078f42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49e14b34-39a5-4be2-bb6d-4cee078e26d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.29999 -2.99999)
+		(end 5.29999 -2.99999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2330fedb-dd92-416d-aa0b-3706760996c0")
+	)
+	(fp_line
+		(start -5.29999 -2.5)
+		(end 5.29999 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a82f0ab4-7efe-4407-a957-efb7cb97a742")
+	)
+	(fp_line
+		(start -5.29999 1.8)
+		(end -5.29999 -2.99999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6ae4f04-1250-4160-bbc8-b73346673f2c")
+	)
+	(fp_line
+		(start -5.29999 1.8)
+		(end 5.29999 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43bcaf7e-09f8-40cf-a5a1-a0f27d5f091a")
+	)
+	(fp_line
+		(start 5.29999 1.8)
+		(end 5.29999 -2.99999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1f61a7f-04e9-45a8-a8be-45816b58aae9")
+	)
+	(fp_text user "1"
+		(at -2.79 3.95875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2987d21d-d98b-46e5-878e-5ecb990f8216")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 2.04 3.95875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5831530e-fbdf-4722-aed1-1ee67f31111b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b23f79a-1dc6-417c-9f44-cbbe2062f159")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "653e6ab0-81a7-44dc-8517-74f51ac18608")
+	)
+	(embedded_fonts no)
+)

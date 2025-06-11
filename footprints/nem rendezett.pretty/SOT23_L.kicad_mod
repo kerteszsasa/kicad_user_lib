@@ -1,0 +1,223 @@
+(footprint "SOT23_L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT23, 3-Leads, Body 2.9x1.3mm, Pitch 0.95mm, Lead Span 2.3mm - Reverse Pinning, IPC High Density")
+	(property "Reference" "REF**"
+		(at 0.05 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "018b7a16-67d0-4d53-9e39-afc912967f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT23_L"
+		(at 0.05 2.3 0)
+		(layer "F.Fab")
+		(uuid "3e6e05aa-ffbc-4eaa-ad39-f3a80d4e61f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76ed0119-ac04-4c1c-8567-23b9f3863c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a340bebb-41c0-4f08-913e-5bec6d90725d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.3 -1.5)
+		(end 0.7 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91ccd3ac-2f79-4f00-9299-75a37d8f6358")
+	)
+	(fp_line
+		(start -0.3 1.5)
+		(end 0.7 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33e72a55-293c-4894-878a-41269e83590e")
+	)
+	(fp_line
+		(start 0.7 -0.7)
+		(end 0.7 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14d6bb86-c82f-42ca-b611-a9d969594506")
+	)
+	(fp_line
+		(start 0.7 1.5)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "935a8208-711e-4c5a-be99-32f9e8d4a49f")
+	)
+	(fp_circle
+		(center 1.35 -0.85)
+		(end 1.35 -0.975)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65df9222-3c0e-4985-9a62-5362d6e73d1a")
+	)
+	(fp_line
+		(start -1.6 -1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "42b66462-219f-40e0-8f6d-5ae588ad6644")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c99a1887-4ac7-4134-a37f-279e93c219a7")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "99e566dd-bd55-41b3-94f9-fc82b24f0a1a")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6828ea03-d090-4713-9e24-7c64d82f42c1")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7b55dc10-db6f-44d0-8029-61914a950b03")
+	)
+	(fp_line
+		(start 1.6 1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "d9e0f1f0-0d1d-4a53-b4bc-8dd79314e50e")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end 0.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a14e621f-bfc5-4221-8ac4-69dd35902555")
+	)
+	(fp_line
+		(start -0.7 1.5)
+		(end -0.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c5f0f138-0c94-4040-b89d-899d4f5247a9")
+	)
+	(fp_line
+		(start -0.7 1.5)
+		(end 0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "95bfd60a-d323-452b-96fc-fbcbfcb2f46f")
+	)
+	(fp_line
+		(start 0.7 1.5)
+		(end 0.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e56dda3d-920d-4cb3-9167-6465da612493")
+	)
+	(pad "1" smd rect
+		(at 1.075 0 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b4c5264-9302-4c3c-a0ce-0d020a42100a")
+	)
+	(pad "2" smd rect
+		(at -1.075 0.95 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ba12925-659e-49ca-bb52-ebabdc3e27bc")
+	)
+	(pad "3" smd rect
+		(at -1.075 -0.95 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be777b5a-4ed0-4077-8735-0bb3fcbe05f8")
+	)
+	(embedded_fonts no)
+)

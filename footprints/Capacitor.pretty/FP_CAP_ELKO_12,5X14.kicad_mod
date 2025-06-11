@@ -1,0 +1,126 @@
+(footprint "FP_CAP_ELKO_12,5X14"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "680 uF/SMD-NIC ELKO 35 V 105°C 20 % KIS IMPEDANCIÁS SMD O12.5x14mm")
+	(property "Reference" "REF**"
+		(at -0.1397 -7.8016 0)
+		(layer "F.SilkS")
+		(uuid "60a2c9a4-b918-47a6-a7b4-4d5ebc8945d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_CAP_ELKO_12,5X14"
+		(at -0.1397 7.8016 0)
+		(layer "F.Fab")
+		(uuid "a5f16ba0-41cd-4418-8a23-8b9199dbba85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a989d20-5d77-4bf1-ab18-5be0efc45ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eae890d3-8434-473c-9c76-1ce0a5bad7e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.6106 -3.0894)
+		(end -4.7 -7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1869679c-7079-4344-b185-dd2b38ecae80")
+	)
+	(fp_line
+		(start -8.6106 2.7894)
+		(end -8.6106 -3.0894)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "745e6a98-56b0-4dc7-bf69-a4820797baae")
+	)
+	(fp_line
+		(start -8.6106 2.7894)
+		(end -4.4 7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "127b5688-a6b9-4862-8b8c-d0f9a5f256cd")
+	)
+	(fp_line
+		(start -4.7 -7)
+		(end 8.3312 -7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a01b5a7d-2d98-4ff3-b28e-64a94d55cb3f")
+	)
+	(fp_line
+		(start -4.4 7)
+		(end 8.3312 7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ea8d631-ac89-468b-89d9-bbde0bf4577d")
+	)
+	(fp_line
+		(start 8.3312 7)
+		(end 8.3312 -7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58d76447-bc35-472e-97cf-01d95a7ba07d")
+	)
+	(pad "N" smd rect
+		(at 5.066 0)
+		(size 6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e3129c4-e0b6-42de-bd8d-b23bc6c3d613")
+	)
+	(pad "P" smd rect
+		(at -5.348 0)
+		(size 6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f46d1437-6a10-4373-a034-7ac260b6b808")
+	)
+	(embedded_fonts no)
+)

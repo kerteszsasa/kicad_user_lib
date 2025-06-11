@@ -1,0 +1,112 @@
+(footprint "DO-35A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, Axial; Body 4.6 x 1.9 mm (LxDia. max), Lead Dia. 0.53 mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "cff3e81e-2679-400f-a353-07d528c07421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DO-35A"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "21ae9c42-8b4d-44eb-be81-24626e81586d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6ca628e-2a9f-4a83-8c5d-f0ae517a8a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2871d1db-d74b-432c-8dee-3b0399b36469")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 -1)
+		(end 2.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ae4bbaf-8943-4847-8dce-aeb66b263260")
+	)
+	(fp_line
+		(start -2.3 1)
+		(end -2.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a53d17f2-1c44-40a6-8110-76a1443e9152")
+	)
+	(fp_line
+		(start -2.3 1)
+		(end 2.3 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fafbf84-a544-4f75-80eb-97c9ca9f3c10")
+	)
+	(fp_rect
+		(start 1.6 1)
+		(end 2.4 -1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5f31a84e-1b85-4239-bfa8-d805a07eb73c")
+	)
+	(pad "1" thru_hole circle
+		(at -3.9 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "2df0ead6-0db9-4a4e-9d00-90a656fa89f9")
+	)
+	(pad "2" thru_hole rect
+		(at 3.9 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e14f0ea-c1c1-4e2c-8501-d2fadf6aee36")
+	)
+	(embedded_fonts no)
+)

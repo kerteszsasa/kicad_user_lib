@@ -1,0 +1,112 @@
+(footprint "DO-201AD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, Axial; Body 9.5 x 5.6 mm (LxDia. max), Lead Dia. 1.32 mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "e84f549b-a9d4-4f67-9d5d-7581c0c51e13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DO-201AD"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "5e54d1eb-7a26-4afd-b394-6286f431df0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f41ed7b-c893-445f-a37b-6d2275231070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb84a632-df06-4711-b192-91c79b135e97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.8 -2.8)
+		(end 4.8 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ad2761-632a-47b7-9409-1d6ec811d017")
+	)
+	(fp_line
+		(start -4.8 2.8)
+		(end -4.8 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8caf7c9b-068b-412d-8d07-7e0c5bd27c94")
+	)
+	(fp_line
+		(start -4.8 2.8)
+		(end 4.8 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fccd87b9-731f-4277-a540-86b7501decc2")
+	)
+	(fp_rect
+		(start 4.1 2.8)
+		(end 4.9 -2.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2b749883-0dd7-4f28-814b-d9d142ebc50c")
+	)
+	(pad "1" thru_hole circle
+		(at -9.42 0)
+		(size 2.8 2.8)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f033f35b-c0c7-450c-85db-57fdd212860b")
+	)
+	(pad "2" thru_hole rect
+		(at 9.42 0)
+		(size 2.8 2.8)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e1ccee2-1189-4724-b459-e96ff1ce161c")
+	)
+	(embedded_fonts no)
+)

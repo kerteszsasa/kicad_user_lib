@@ -1,0 +1,132 @@
+(footprint "Euroblock 3.5mm 2X2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.5 mm pitch 2X2P connector")
+	(property "Reference" "REF**"
+		(at -0.02581 -8.305 0)
+		(layer "F.SilkS")
+		(uuid "c4d945aa-bab4-4aa7-876f-6f7c341165ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Euroblock 3.5mm 2X2P"
+		(at -0.02581 14.9358 0)
+		(layer "F.Fab")
+		(uuid "b2a28be6-dfe3-4bd2-870c-15f1334622bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f6073e3-edb3-4eef-a68e-7314b3049a01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "496fe70b-3931-43b3-a9ea-11fc54a64ead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.13561 -7.505)
+		(end 4.08399 -7.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85639727-9ca6-4a8a-b691-b18fa30301d2")
+	)
+	(fp_line
+		(start -4.13561 14.1358)
+		(end -4.13561 -7.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "041005b9-d919-42fb-a87d-47b1173c7d49")
+	)
+	(fp_line
+		(start -4.13561 14.1358)
+		(end 4.08399 14.1358)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f82ebe0f-b3ac-4407-8bcf-ea77578697ef")
+	)
+	(fp_line
+		(start 4.08399 14.1358)
+		(end 4.08399 -7.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "355b82de-aab4-4a3a-9b7c-33d46a2915d6")
+	)
+	(pad "1" thru_hole rect
+		(at -1.75 6.25)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "57a49103-9215-4d60-9150-3cb2c3304fb5")
+	)
+	(pad "2" thru_hole circle
+		(at -1.75 -6.25)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9ae66cf5-9526-4e34-8453-0ec3177b68a3")
+	)
+	(pad "3" thru_hole circle
+		(at 1.75 6.25)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 90)
+		(uuid "9e97cf3e-a231-4164-9f77-fcd48bb56667")
+	)
+	(pad "4" thru_hole circle
+		(at 1.75 -6.25)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 90)
+		(uuid "b964a471-08de-4a8c-816d-839575f6c320")
+	)
+	(embedded_fonts no)
+)

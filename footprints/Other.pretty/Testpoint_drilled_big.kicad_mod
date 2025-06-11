@@ -1,0 +1,61 @@
+(footprint "Testpoint_drilled_big"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "88cfa77a-9853-4c36-933c-7001959679b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Testpoint_drilled_big"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "b63aa29a-e706-42e7-9d12-d9abef3cbfc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52266c9f-3efa-46e9-b77b-16184cc0c808")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5d4a2b1-3309-4d8c-a334-7fd9e42580fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2 5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82531752-9ca7-4f6f-80d8-1686400cdd6a")
+	)
+	(embedded_fonts no)
+)

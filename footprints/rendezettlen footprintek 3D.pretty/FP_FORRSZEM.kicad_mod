@@ -1,0 +1,67 @@
+(footprint "FP_FORRSZEM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.351 0)
+		(layer "F.SilkS")
+		(uuid "fe20c9df-352d-41bc-832a-dbf901051994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_FORRSZEM"
+		(at 0 2.351 0)
+		(layer "F.Fab")
+		(uuid "d951527a-9d25-4969-b5db-045d68ace16b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05eb91fd-d934-45b9-a3a1-041ff2968ce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58b6e0bf-84ed-46b0-b6d4-ea33abae8c14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0.889 270)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.127)
+		(uuid "25aa9648-9a96-4f46-8640-c7b3cb551356")
+	)
+	(pad "2" smd rect
+		(at 0 -0.889 270)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.127)
+		(uuid "5dfdf6fd-081d-4d88-9cb0-7e70da78e1f0")
+	)
+	(embedded_fonts no)
+)

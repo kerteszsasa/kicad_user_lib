@@ -1,0 +1,112 @@
+(footprint "DO-41"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, Axial; Body 5.2 x 2.7 mm (LxDia. max), Lead Dia. 0.86 mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "53f50ebb-c613-4254-b35b-f97a005fbf16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DO-41"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "832afd63-aca0-4fed-8d7c-52a2e2e0226b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7482aacc-3956-452c-9a5d-738a06367920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2d8cf61-2029-4f5d-a3aa-adccb2605f11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.65 -1.4)
+		(end 2.65 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bfb231c-aa61-42b0-93df-d4023dc455c8")
+	)
+	(fp_line
+		(start -2.65 1.4)
+		(end -2.65 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e409e9e-d00c-4fc2-ab8d-0eee666a3569")
+	)
+	(fp_line
+		(start -2.65 1.4)
+		(end 2.65 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43c67ce6-8988-4ca0-957e-dd765e39e786")
+	)
+	(fp_rect
+		(start 1.95 1.4)
+		(end 2.75 -1.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "912e6396-fb7e-4dfb-bed4-13c09cbc8549")
+	)
+	(pad "1" thru_hole circle
+		(at -5.23 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a99dcf62-64e7-4b14-a566-288f467e28ef")
+	)
+	(pad "2" thru_hole rect
+		(at 5.23 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6238e02b-4e6f-470d-80ea-884687cc8df7")
+	)
+	(embedded_fonts no)
+)

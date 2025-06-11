@@ -1,0 +1,94 @@
+(footprint "R38"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Crystal, Thru-Hole; 2 Leads; Body 3.1 x 8.2 mm (Dia.xH)")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "0e283ce3-fdd1-4da8-aa65-3d5bba766ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R38"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "ce6dc237-e16b-4a86-876a-cd2e00437aea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f248d84-4b70-4ddb-97be-32d4f516d397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3b4e857-0929-4bd2-8f9d-b147dba52a1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start -1.005869 1.189294)
+		(mid -1.549972 0.020743)
+		(end -1.022135 -1.155244)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f74ceeb-5f46-4b18-bad5-2fc8035ecebc")
+	)
+	(fp_arc
+		(start 1.022135 -1.165224)
+		(mid 1.549972 0.010763)
+		(end 1.005869 1.179314)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54b0d191-29c3-4b50-91da-732982486f95")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.55)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c72eb92e-68b8-449d-b332-a678f772e731")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.55)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bd51e0ac-85db-49a2-ae7b-2107b9f77ba7")
+	)
+	(embedded_fonts no)
+)

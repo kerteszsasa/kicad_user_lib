@@ -1,0 +1,111 @@
+(footprint "Res_2W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.716 0)
+		(layer "F.SilkS")
+		(uuid "8152c4ba-bef1-4e2f-acba-98615094aee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Res_2W"
+		(at 0 14.924 0)
+		(layer "F.Fab")
+		(uuid "4537b352-1f54-4ba9-9a75-7775eda08318")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd46677-4c47-410a-a05c-901c56d6aaef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0e17f3b-878f-4927-805a-b3d9462d07bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.143 -0.889)
+		(end 1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a069b213-7b05-429a-9482-666cc114e831")
+	)
+	(fp_line
+		(start -1.143 14.097)
+		(end -1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ba5b12a-fb7a-490f-b1b2-bad5a30563d3")
+	)
+	(fp_line
+		(start -1.143 14.097)
+		(end 1.143 14.097)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75c8c313-a9a0-441b-bb5e-cc9136f3e83f")
+	)
+	(fp_line
+		(start 1.143 14.097)
+		(end 1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9154be33-1842-4060-a8b8-bd4fef478ca7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 13.208 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "70cefd7d-fd49-429f-b8fd-dd0fadc5ce9b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f9215136-b0bc-46f3-adb1-3d6bec853973")
+	)
+	(embedded_fonts no)
+)

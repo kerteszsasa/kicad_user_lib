@@ -1,0 +1,111 @@
+(footprint "TH multifuse 5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.577 0)
+		(layer "F.SilkS")
+		(uuid "83641169-be44-463e-84a6-c49628637b5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TH multifuse 5mm"
+		(at 0 4.577 0)
+		(layer "F.Fab")
+		(uuid "e51b54cf-b7dc-41e4-87ac-019d705a9d40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18cf01fc-a68a-449a-91cb-08709b2e19ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de6d7c6d-79f2-4138-af49-13f1add224d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.889 -3.75)
+		(end 0.889 -3.75)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0304bc7c-f9df-4d68-bb65-668b47a39dc3")
+	)
+	(fp_line
+		(start -0.889 3.683)
+		(end -0.889 -3.683)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3abc5a2-48ef-4215-b2a5-d062aa8a2bcb")
+	)
+	(fp_line
+		(start -0.889 3.75)
+		(end 0.889 3.75)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ca6f2f1-c63d-4175-ab2a-5c98b49e2562")
+	)
+	(fp_line
+		(start 0.889 3.683)
+		(end 0.889 -3.683)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72317166-55a8-4902-af1b-0969a0e074d2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.54 90)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d5885aef-622b-4821-a20a-e45e98d21122")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54 90)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "981f9345-05c8-4bdc-a69d-1fd3278e0ee5")
+	)
+	(embedded_fonts no)
+)

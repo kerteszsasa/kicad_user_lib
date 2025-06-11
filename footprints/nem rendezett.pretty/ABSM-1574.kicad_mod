@@ -1,0 +1,164 @@
+(footprint "ABSM-1574"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Magnetic Transducer Buzzer")
+	(property "Reference" "REF**"
+		(at 5.89999 -7.19999 0)
+		(layer "F.SilkS")
+		(uuid "711636a3-fae7-472f-9dd0-8fc6b403b527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABSM-1574"
+		(at 5.89999 7.19999 0)
+		(layer "F.Fab")
+		(uuid "9f40c452-db83-4bf5-82fa-38046351b8a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc2b477-f52e-4e22-bc98-7b674f18d088")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6d59b1c-ef23-4ab2-b941-29def1fdb3c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.50002 -6.39999)
+		(end 12.3 -6.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7111191-7ba3-493a-b679-abb63198f886")
+	)
+	(fp_line
+		(start -0.50002 -1.79999)
+		(end -0.50002 -6.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75388b87-b341-404a-8a0f-5df74019c561")
+	)
+	(fp_line
+		(start -0.50002 6.39999)
+		(end -0.50002 1.79999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f10ffc3-9b0c-477c-94ee-fc02263eb2c2")
+	)
+	(fp_line
+		(start -0.50002 6.39999)
+		(end 9.30001 6.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f40845a-aaef-421c-9c10-164cfe8eb677")
+	)
+	(fp_line
+		(start 9.30001 6.39999)
+		(end 12.3 3.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eba44a04-097d-45e2-813e-48ea9b3b650d")
+	)
+	(fp_line
+		(start 12.3 -1.79999)
+		(end 12.3 -6.39999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d31da3e-ebdc-42fa-af60-b7ac2519dbe4")
+	)
+	(fp_line
+		(start 12.3 3.39999)
+		(end 12.3 1.79999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e243a3ee-868a-4f27-9216-4c0515f992ee")
+	)
+	(fp_circle
+		(center -1.6002 2.1336)
+		(end -1.6002 1.90641)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f4698ebd-d56d-46c1-872c-9a32a8ce1382")
+	)
+	(pad "1" smd rect
+		(at 0 0 90)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d23ceb6-d8a6-4600-88fc-dfdad8b856c6")
+	)
+	(pad "1A" thru_hole rect
+		(at 2.65 0.24)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c226aab3-a374-4cb1-a5f8-f0c54221a4a1")
+	)
+	(pad "2" smd rect
+		(at 11.79998 0 90)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5aecc1a-21ed-4de4-93d1-b1c8c7ed602d")
+	)
+	(pad "2A" thru_hole circle
+		(at 9.15 0.24)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0fb39fa3-b049-4030-a78c-47fc38dc23ca")
+	)
+	(embedded_fonts no)
+)

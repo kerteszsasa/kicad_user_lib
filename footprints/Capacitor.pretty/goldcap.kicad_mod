@@ -1,0 +1,124 @@
+(footprint "goldcap"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RM5.0")
+	(property "Reference" "REF**"
+		(at 0 -3.7996 0)
+		(layer "F.SilkS")
+		(uuid "c2475ccc-3acd-4d38-b4d7-53d378a90c10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "goldcap"
+		(at 0 3.9004 0)
+		(layer "F.Fab")
+		(uuid "d98e47fc-7e4e-4bb1-933c-ad98a832b958")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a44c6b1-4d54-497e-9387-b7de8c754bce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ad76ae1-d737-4795-ab85-41909f5ef534")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.08 -1.778)
+		(end 5.047 -1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8be181d-4d4a-40b5-bb14-1fead6635412")
+	)
+	(fp_line
+		(start -5.08 1.778)
+		(end -5.08 -1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9224c743-bada-47ff-b672-8bd116be2757")
+	)
+	(fp_line
+		(start -5.08 1.778)
+		(end 5.08 1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69479f6f-06d9-4f9f-9b6f-71253d6b0d7b")
+	)
+	(fp_line
+		(start 5.08 1.778)
+		(end 5.08 -1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dc3314f-28a4-414e-ba7c-858b7621c8bf")
+	)
+	(fp_text user "+"
+		(at -0.176 -1.397 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bfe81fba-d2ac-4f50-ac71-45000ecae988")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "N" thru_hole circle
+		(at -0.0762 2.5254 270)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "88025b32-10cf-4825-9942-78aae848df8c")
+	)
+	(pad "P" thru_hole rect
+		(at -0.0762 -2.4746 270)
+		(size 1.25 1.25)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53130977-b861-4296-a800-f63e3b322642")
+	)
+	(embedded_fonts no)
+)

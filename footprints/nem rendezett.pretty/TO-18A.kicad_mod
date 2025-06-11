@@ -1,0 +1,103 @@
+(footprint "TO-18A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SC-89; 3 Flat Leads; Body 1.6 x 1.6 x 0.7 mm, inc leads (LxWxH typ)")
+	(property "Reference" "REF**"
+		(at -0.0006 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "87d6d52e-c117-4add-a1a6-19e1d2e5e6a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-18A"
+		(at -0.0006 2.6 0)
+		(layer "F.Fab")
+		(uuid "088e94d6-6301-41fc-839a-6deb7fb0cf23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d7a107f-0f11-4a12-a87c-71560a1e3aad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a668330-0c1b-43d3-a0f4-03a4eec6135a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.6762 -0.05)
+		(end -0.6762 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbedab26-42ec-43fe-af9c-4ddf455e0c8a")
+	)
+	(fp_line
+		(start 0.675 -0.05)
+		(end 0.675 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aa9a7d0-a555-4eab-9bab-bc7494031a0c")
+	)
+	(fp_circle
+		(center -0.5 1.65)
+		(end -0.5 1.525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0552ae14-e5c8-4676-ba78-65cedd3d59c0")
+	)
+	(pad "1" smd rect
+		(at -0.5 0.725)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f201b0b-6337-4561-9352-d4492c1af97e")
+	)
+	(pad "2" smd rect
+		(at 0.5 0.725)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c472702-8285-41d7-9d9e-3790bee36c82")
+	)
+	(pad "3" smd rect
+		(at 0 -0.725)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46dbb33d-64ae-4796-add5-931784851bde")
+	)
+	(embedded_fonts no)
+)

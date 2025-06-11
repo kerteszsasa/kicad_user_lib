@@ -1,0 +1,60 @@
+(footprint "WIRE_CONNECTOR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Vezeték csatlakozópont")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "f3414fe1-ce8a-4ec1-81ca-b06885833b93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WIRE_CONNECTOR"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "2ce68ba4-9f7f-4f54-afe6-f55961924a9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69e6a993-d035-4e4b-87f8-1a36bbc348fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b94ca7a-f9f0-4d6b-848e-96cab81a053e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9a2ef76-afe3-4c7f-b3ca-383b30e5727f")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,128 @@
+(footprint "MEC Tactile Switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.827 0)
+		(layer "F.SilkS")
+		(uuid "6531aec7-3803-420a-a6e9-4a4e730dea45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MEC Tactile Switch"
+		(at 0 6.827 0)
+		(layer "F.Fab")
+		(uuid "8ed88361-9a4a-48b7-b78b-fd1fb21bdc9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0b360c8-89ba-45a3-bdba-4886725b35f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ed7ab1f-3573-405c-8dca-afc885fd4507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6 -6)
+		(end 6 -6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5df5fd27-8f72-46a1-b840-200a33ca98f4")
+	)
+	(fp_line
+		(start -6 6)
+		(end -6 -6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "742d25df-572e-4cb2-a5cf-d2cda7cdacb2")
+	)
+	(fp_line
+		(start -6 6)
+		(end 6 6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22b7d1e4-1f24-4296-b648-ab22dfa08ff4")
+	)
+	(fp_line
+		(start 6 6)
+		(end 6 -6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0ced29d-bea5-40bb-bca2-0126e536a885")
+	)
+	(pad "B1" thru_hole circle
+		(at -5.08 3.81)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "63e981f1-73ee-450e-ba61-694a61f1b313")
+	)
+	(pad "B2" thru_hole circle
+		(at 5.08 -3.81)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c946af3c-1e76-4067-989b-2a663fae7173")
+	)
+	(pad "L+" thru_hole rect
+		(at -5.08 -3.81)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "907fa654-929a-4706-a362-ed5c68ba02e5")
+	)
+	(pad "L-" thru_hole circle
+		(at 5.08 3.81)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b0920f67-101e-495c-b67f-949dbc079aa4")
+	)
+	(embedded_fonts no)
+)

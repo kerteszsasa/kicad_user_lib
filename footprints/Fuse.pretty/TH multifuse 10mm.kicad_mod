@@ -1,0 +1,111 @@
+(footprint "TH multifuse 10mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.327 0)
+		(layer "F.SilkS")
+		(uuid "0eabc6f8-29e4-4331-8a94-2ccdd1c92f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TH multifuse 10mm"
+		(at 0 2.327 0)
+		(layer "F.Fab")
+		(uuid "b34694cf-b61d-4d4f-bc81-66962f5e5b1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c729abdf-637f-4fc3-8c02-dcf2efb3b847")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "095d8a0f-8cd6-44ff-883e-cefd4d28646f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.7 -1.5)
+		(end 8.7 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dd71d6e-2512-4916-9df9-db3f013feebb")
+	)
+	(fp_line
+		(start -8.7 1.5)
+		(end -8.7 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b801311b-6711-4b68-842e-96ada97f65c9")
+	)
+	(fp_line
+		(start -8.7 1.5)
+		(end 8.7 1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75bfd932-53bd-46bf-b8e1-4b8ac8569edb")
+	)
+	(fp_line
+		(start 8.7 1.5)
+		(end 8.7 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de3b226c-390f-48b5-8250-50f6c427dd49")
+	)
+	(pad "1" thru_hole circle
+		(at -5.1 0)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c01ea34a-c7e2-4371-86df-ffa91e2ec123")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 0)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "187fdeb6-cda1-4d4d-8c95-15fe5b67ce06")
+	)
+	(embedded_fonts no)
+)

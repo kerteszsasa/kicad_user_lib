@@ -1,0 +1,201 @@
+(footprint "TO-247"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SIP with Mounting Hole; 3 Leads; Body 20 x 15.6 x 5 mm (typ); Pitch 5.45 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "0c0de909-093f-4acb-9ec0-2635d67ea525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-247"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "65e517a8-1979-42e1-b445-7af52411da5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a261cb90-60fa-4894-8958-e5eb0341ec6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71cdb200-966f-4e5b-8cc0-3f54c380ad89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.95 -2.7)
+		(end 7.95 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "423222e5-cd9c-4b4f-aa0c-a5d00edf3dba")
+	)
+	(fp_line
+		(start -7.95 -2.2)
+		(end 7.95 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cedfda28-f174-4d7a-a8a2-f76e5a6282da")
+	)
+	(fp_line
+		(start -7.95 2.6)
+		(end -7.95 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "758cc6fe-4a2e-4b1c-bae0-2f267339abd8")
+	)
+	(fp_line
+		(start -7.95 2.6)
+		(end 7.95 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b59ba58-38b3-4c39-8605-37997dbb6c78")
+	)
+	(fp_line
+		(start 7.95 2.6)
+		(end 7.95 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47686d73-6dc7-4f65-9cd1-cb96c2b48886")
+	)
+	(fp_circle
+		(center -7.3 1.95)
+		(end -7.3 1.825)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2d58caa0-957a-4a83-829d-2a3fb450914f")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "317bde06-a8f5-41b8-bf80-bd88dc9bd2d1")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "acfd97c0-473f-4a58-bee9-7987dab8de6b")
+	)
+	(fp_line
+		(start -7.95 -2.7)
+		(end 7.95 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ea182897-9597-40fc-b8a5-1fc6162f403f")
+	)
+	(fp_line
+		(start -7.95 2.6)
+		(end -7.95 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c91824c7-7e8a-44a3-857a-df117293a5cf")
+	)
+	(fp_line
+		(start -7.95 2.6)
+		(end 7.95 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "4e9cbce9-8795-4500-809d-e1814dc19d89")
+	)
+	(fp_line
+		(start 7.95 2.6)
+		(end 7.95 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "541c1ea0-583a-4c41-aaf7-9729e9634257")
+	)
+	(pad "1" thru_hole rect
+		(at -5.45 0)
+		(size 2.3 2.3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b22b5b30-4a78-4412-bee5-69b73fc6d753")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b5523e47-ff80-4038-a99e-51588494a4d1")
+	)
+	(pad "3" thru_hole circle
+		(at 5.45 0)
+		(size 2.3 2.3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "81f531f4-cf7c-410f-8b7e-35470021b541")
+	)
+	(embedded_fonts no)
+)

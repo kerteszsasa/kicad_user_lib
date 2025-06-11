@@ -1,0 +1,295 @@
+(footprint "Telefon_TH_fekvo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.7485 0)
+		(layer "F.SilkS")
+		(uuid "2a92df85-bc18-4167-9c91-8bf0b3dcbfde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Telefon_TH_fekvo"
+		(at 0 6.8635 0)
+		(layer "F.Fab")
+		(uuid "af03d106-c15a-4fe0-88b0-21ca4eaf0f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d21ec9c3-5dc4-4d99-ba5d-554e5723fb27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fc12f65-f73a-4d21-9f87-bb72a94432ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.0038 6.0706)
+		(end -5.0038 4.3434)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b38b3824-5d80-4a1a-9765-ae07bbc8cdbd")
+	)
+	(fp_line
+		(start 4.9784 6.0198)
+		(end 4.9784 4.3434)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0df2f8b6-4bd5-4a32-af0c-e994d3edf7d0")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.0038 -0.0254 180)
+		(size 2.54 2.54)
+		(drill 2.54)
+		(layers "F&B.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "97d105fc-4271-40d9-83cb-d04d28af9f68")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.0038 -0.0254 180)
+		(size 2.54 2.54)
+		(drill 2.54)
+		(layers "F&B.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "e7145019-e265-4ff9-ac0e-4050d6ace5d9")
+	)
+	(pad "A" thru_hole circle
+		(at 0.508 -4.572 180)
+		(size 1.397 1.397)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b0c49cff-9bb9-4680-86d6-ed7a5f871fbf")
+	)
+	(pad "B" thru_hole circle
+		(at -0.508 -2.032 180)
+		(size 1.397 1.397)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ed976bc8-f44d-4ae2-8be7-33db58d15c96")
+	)
+	(pad "GND" thru_hole circle
+		(at 1.4986 -2.032 180)
+		(size 1.397 1.397)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e8d5d7be-52f8-46b6-b27e-96add39133eb")
+	)
+	(pad "VCC" thru_hole circle
+		(at -1.4986 -4.572 180)
+		(size 1.397 1.397)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ed9aa4f8-3490-4109-acc9-7fb76423094a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "c553f2a1-314f-42a1-9ab1-7354bd281f50")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.058666 -7.0093) (xy -5.0243 -7.043666) (xy -4.9757 -7.043666) (xy -4.941334 -7.0093) (xy -4.9365 -6.985)
+				(xy -4.9365 4.318) (xy -4.941334 4.3423) (xy -4.9757 4.376666) (xy -5.0243 4.376666) (xy -5.058666 4.3423)
+				(xy -5.0635 4.318) (xy -5.0635 -6.985)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "55dd1891-2614-4580-8590-28dac3aff9d3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.941334 -7.0093) (xy 4.9757 -7.043666) (xy 5.0243 -7.043666) (xy 5.058666 -7.0093) (xy 5.0635 -6.985)
+				(xy 5.0635 4.318) (xy 5.058666 4.3423) (xy 5.0243 4.376666) (xy 4.9757 4.376666) (xy 4.941334 4.3423)
+				(xy 4.9365 4.318) (xy 4.9365 -6.985)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "e667230d-e7d5-481e-a2d6-db6982681912")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5.0027 -7.043666) (xy 5.037066 -7.0093) (xy 5.037066 -6.9607) (xy 5.0027 -6.926334) (xy 4.9784 -6.9215)
+				(xy -5.0038 -6.9215) (xy -5.0281 -6.926334) (xy -5.062466 -6.9607) (xy -5.062466 -7.0093) (xy -5.0281 -7.043666)
+				(xy -5.0038 -7.0485) (xy 4.9784 -7.0485)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "4f319e07-cf94-4754-b56c-8fd2e17e89d1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5.0027 4.284734) (xy 5.037066 4.3191) (xy 5.037066 4.3677) (xy 5.0027 4.402066) (xy 4.9784 4.4069)
+				(xy -5.0038 4.4069) (xy -5.0281 4.402066) (xy -5.062466 4.3677) (xy -5.062466 4.3191) (xy -5.0281 4.284734)
+				(xy -5.0038 4.2799) (xy 4.9784 4.2799)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "03cb005f-2fd9-408d-a4f1-4d7fd041e85b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5.0027 6.041334) (xy 5.037066 6.0757) (xy 5.037066 6.1243) (xy 5.0027 6.158666) (xy 4.9784 6.1635)
+				(xy -5.0038 6.1635) (xy -5.0281 6.158666) (xy -5.062466 6.1243) (xy -5.062466 6.0757) (xy -5.0281 6.041334)
+				(xy -5.0038 6.0365) (xy 4.9784 6.0365)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,143 @@
+(footprint "HC49-3L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Quartz Crystal, SM; Body 13.4 (inc. leads) x 4.9 mm (LxW max)")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "f920aa08-bda5-4648-b3bf-46387b1f540c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HC49-3L"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "8c1c6cc6-53f0-4c8c-a668-f4e9b86b3bc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97d535b7-91b8-46fe-bd37-a14661911c0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb6e392-f27c-4bb5-9477-3b0c20004cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.7 -2.45)
+		(end 5.7 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48f7f7b3-fa1b-4f59-ad9e-ad75a6da91f7")
+	)
+	(fp_line
+		(start -5.7 -1.7)
+		(end -5.7 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adca4e72-1009-4ded-a2f0-aa2cd2d7df1b")
+	)
+	(fp_line
+		(start -5.7 2.45)
+		(end -5.7 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0f804d5-56f7-44d7-8f9a-480abecf1a82")
+	)
+	(fp_line
+		(start -5.7 2.45)
+		(end 5.7 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5579de2d-8b9d-4feb-ac93-37ba2b09ffce")
+	)
+	(fp_line
+		(start 5.7 -1.7)
+		(end 5.7 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48c086fa-6328-4e49-af28-12958ac8acd8")
+	)
+	(fp_line
+		(start 5.7 2.45)
+		(end 5.7 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beedbfb0-c4af-4fcf-8e20-53ec02811481")
+	)
+	(fp_circle
+		(center -4.75 1.6)
+		(end -4.75 1.475)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "54335295-d58a-45fe-bb4f-f7b745093cdb")
+	)
+	(pad "1" thru_hole circle
+		(at -2.44 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cd0b31aa-e773-4088-9e4a-6215a3a17c9a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.44 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a6c55530-16b9-4e0c-a278-a6d3bb455061")
+	)
+	(embedded_fonts no)
+)

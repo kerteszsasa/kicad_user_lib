@@ -1,0 +1,120 @@
+(footprint "HEADER_2.00MM_M_1x3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1x3-as tüskesor, 2mm-es raszter, 1.5mm mûanyag + 3.2mm tüske SAMTEC-TMM-1XX-01-...")
+	(property "Reference" "REF**"
+		(at 0 -5.8402 0)
+		(layer "F.SilkS")
+		(uuid "d100c57a-1ac9-4025-b6f0-4db057bd4352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HEADER_2.00MM_M_1x3"
+		(at 0 1.827 0)
+		(layer "F.Fab")
+		(uuid "5b2971db-12b1-454e-b98c-e4337e52840a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "948cd026-af1f-4a42-923a-d4a9cc185d19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00185213-63cc-43b7-b6d1-b2ece1e63c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -5.0132)
+		(end 1 -5.0132)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4747efe1-786d-4086-b9cf-3c4080cc3197")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -5.0132)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b62e596-b5e6-4e3b-b453-7df2679db75c")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e85fbd22-dfaf-4646-a016-52b154592f7f")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -5.0132)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3db6b07e-5183-48eb-8e3b-0930e8059bd1")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a01e1de0-ad46-4bf0-8e7f-2541f10db449")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3aef0240-113e-4b62-a277-3dce62f931d1")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -4)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0c3c7464-c57b-4c50-b8cc-be1d09dd3b8d")
+	)
+	(embedded_fonts no)
+)

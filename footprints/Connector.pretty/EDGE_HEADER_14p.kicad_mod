@@ -1,0 +1,209 @@
+(footprint "EDGE_HEADER_14p"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOP, 14-Leads, Body 10.30x7.50mm, Pitch 2.54mm, IPC Low Density")
+	(property "Reference" "REF**"
+		(at 0.0044 -2.475 0)
+		(layer "F.SilkS")
+		(uuid "b40b4b82-325f-4361-8be3-edf1ee8d4aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EDGE_HEADER_14p"
+		(at 0.0044 16.915 0)
+		(layer "F.Fab")
+		(uuid "ffcce775-bf4b-4996-86b8-612801ade631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "196827c3-0702-4105-8037-3fedacf1c064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b16077f-7577-47d9-bfa0-9955160f30cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -0.0762 -1.525)
+		(end -0.0762 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6e87b72-38bc-4bcb-bd49-ca5de297ac18")
+	)
+	(fp_line
+		(start 2.54 -4.699)
+		(end 11.176 -4.699)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "cfad8218-f475-4b38-98b7-ecfeab2d3c69")
+	)
+	(fp_line
+		(start 2.54 19.939)
+		(end 2.54 -4.699)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "55de7b16-c3b5-40c0-a1eb-7d3b98c7bcd4")
+	)
+	(fp_line
+		(start 2.54 19.939)
+		(end 11.176 19.939)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "243652b0-c97a-43f6-b7a2-ccb92bc99df4")
+	)
+	(fp_line
+		(start 11.176 19.939)
+		(end 11.176 -4.699)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "42c4bbb8-ef0a-4116-9c72-4e5cda3aed56")
+	)
+	(fp_text_box "${REFERENCE}"
+		(start 9.16006 -1.397)
+		(end 5.842 19.52602)
+		(margins 0 0 0 0)
+		(angle 270)
+		(layer "Eco2.User")
+		(uuid "ea9c0760-c821-474b-8af9-a227983b6782")
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.3048)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab2cee87-dccc-4d2d-b08c-50b49402411b")
+	)
+	(pad "2" smd oval
+		(at 0.0088 0 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "4a4f8cc2-636b-4df0-94b3-bcf8bdc8e4ec")
+	)
+	(pad "3" smd oval
+		(at 0 2.54 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b57d53ac-a2a3-460f-a333-563d3ed42dc4")
+	)
+	(pad "4" smd oval
+		(at 0.0088 2.54 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "a1db2929-499b-4de8-a67c-086ea99e9cfc")
+	)
+	(pad "5" smd oval
+		(at 0 5.08 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aeb1a065-a4c1-47b9-88a1-bc3973ed5404")
+	)
+	(pad "6" smd oval
+		(at 0.0088 5.08 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "f3804476-b86c-4b3f-8770-82c2d7e682ef")
+	)
+	(pad "7" smd oval
+		(at 0 7.62 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0c4bd10-0ff3-4007-9e82-1d0a9c5ecf01")
+	)
+	(pad "8" smd oval
+		(at 0.0088 7.62 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "7bd27555-c10e-4656-b42e-2537329691cf")
+	)
+	(pad "9" smd oval
+		(at 0 10.16 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85475149-2fd2-46f0-bd6f-0276e97e7ade")
+	)
+	(pad "10" smd oval
+		(at 0.0088 10.16 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "1607f249-d65e-40d7-9048-de15bc7c4acd")
+	)
+	(pad "11" smd oval
+		(at 0 12.7 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5b57c29-2fcc-4911-9e91-82ab408b2236")
+	)
+	(pad "12" smd oval
+		(at 0.0088 12.7 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "bd25586e-7a8e-4d6a-8a98-b99496c45a18")
+	)
+	(pad "13" smd oval
+		(at 0 15.24 90)
+		(size 1.95 4.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24539f75-f55e-4791-869c-ce1ceef82554")
+	)
+	(pad "14" smd oval
+		(at 0.0088 15.24 90)
+		(size 1.95 4.55)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "88274e04-74ef-4156-a682-cfb8e2f04d37")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,132 @@
+(footprint "AXIAL-0.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Axial Device, Thru-Hole; 2 Leads; 0.5 in Pin Spacing")
+	(property "Reference" "REF**"
+		(at 0 -2.07 0)
+		(layer "F.SilkS")
+		(uuid "43a7180d-d544-4789-a789-1a3d854b8ea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AXIAL-0.5"
+		(at 0 2.07 0)
+		(layer "F.Fab")
+		(uuid "a0980f88-6c85-4041-8a31-352ffebf4f50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6fb28fa-ecaa-4e3a-ad8f-07e309d044ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "358b267b-1a0b-4bf7-b31b-3d4ab1d319c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.334 0)
+		(end -3.81 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf29d697-e1f5-4074-aad0-e1227a59385d")
+	)
+	(fp_line
+		(start -3.81 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ea1ae7d-ec29-4c4e-b392-960da82b29a7")
+	)
+	(fp_line
+		(start -3.81 1.27)
+		(end -3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e51dddfc-2983-40bc-9fbe-3cfc70d529e2")
+	)
+	(fp_line
+		(start -3.81 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3299700-875c-4c98-a494-6ee33be071e4")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 5.334 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20488c41-b3db-437d-b22d-0ea4e6471103")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f914e0d-4897-4d7c-b5b0-847216ef4f87")
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 0)
+		(size 1.4 1.4)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "31567969-041c-43fc-92a0-539abc5edd24")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 0)
+		(size 1.4 1.4)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "29d5e398-4fbd-4e97-9458-12723739d337")
+	)
+	(embedded_fonts no)
+)

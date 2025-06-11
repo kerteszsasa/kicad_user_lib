@@ -1,0 +1,112 @@
+(footprint "DO-7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, Axial; Body 7 x 2.7 mm (LxDia. max), Lead Dia. 0.53 mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "58c2fbb6-0047-480a-aab3-8fbb29f23566")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DO-7"
+		(at 0 2.15 0)
+		(layer "F.Fab")
+		(uuid "0cf829a4-b62e-4f84-ba25-48494bc46603")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea85bc9-b2d4-4fad-9768-1fb9f61db20c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8175ef6-96e2-4b2b-821b-36e03c97c0d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.5 -1.35)
+		(end 3.5 -1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59ca88f4-5c36-425d-83e0-5fe6271c3307")
+	)
+	(fp_line
+		(start -3.5 1.35)
+		(end -3.5 -1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65d555d6-52fd-43a9-8e37-2039d32c8a66")
+	)
+	(fp_line
+		(start -3.5 1.35)
+		(end 3.5 1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "969edfb5-2571-4cef-b7b5-f88137f121c0")
+	)
+	(fp_rect
+		(start 2.8 1.35)
+		(end 3.6 -1.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1410d2d2-6274-498f-945e-2856806c6f80")
+	)
+	(pad "1" thru_hole circle
+		(at -5.1 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bf87148a-f475-4d49-9dcf-0a7a3115df06")
+	)
+	(pad "2" thru_hole rect
+		(at 5.1 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ffe81d8-29c5-4b7d-bce5-44f043e846f2")
+	)
+	(embedded_fonts no)
+)

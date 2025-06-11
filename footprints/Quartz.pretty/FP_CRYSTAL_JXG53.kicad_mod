@@ -1,0 +1,106 @@
+(footprint "FP_CRYSTAL_JXG53"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JXG53 kristály tokozás")
+	(property "Reference" "REF**"
+		(at -0.000005 -2.6016 0)
+		(layer "F.SilkS")
+		(uuid "0f8e28be-2cf6-4b9e-b8ba-fcb428d717d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_CRYSTAL_JXG53"
+		(at -0.000005 2.6016 0)
+		(layer "F.Fab")
+		(uuid "9a93c954-19ab-4611-8ecb-d68824fc15c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85f98e2f-a13f-427f-bb1a-04ee8e99069f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2321486-804a-45f5-aa90-bf9dc75bf7ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.1 -1.8)
+		(end 4.09999 -1.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "084e5a96-bb69-4d21-a8b9-52591d2996b1")
+	)
+	(fp_line
+		(start -4.1 1.8)
+		(end -4.1 -1.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "178c4a9f-f911-4c5b-9f1c-a2f623c09a0c")
+	)
+	(fp_line
+		(start -4.1 1.8)
+		(end 4.09999 1.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1f5aee2-fccd-4b4e-9518-82914787e5fd")
+	)
+	(fp_line
+		(start 4.09999 1.8)
+		(end 4.09999 -1.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec6a9cc-8d38-435f-ab9e-452f4d8ce305")
+	)
+	(pad "1" smd rect
+		(at -2.4 0)
+		(size 2.8 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3af20f9-26cf-4af8-984b-177d7adcba31")
+	)
+	(pad "2" smd rect
+		(at 2.4 0)
+		(size 2.8 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ee9a5b01-2928-4de9-8c87-fd8045caf1e2")
+	)
+	(embedded_fonts no)
+)

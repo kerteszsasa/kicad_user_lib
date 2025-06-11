@@ -1,0 +1,112 @@
+(footprint "R_0p6W_min"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "normal throug hole, standing")
+	(property "Reference" "REF**"
+		(at 2.4765 -1.843 0)
+		(layer "F.SilkS")
+		(uuid "f86fd752-490b-4dc0-b1a1-1101c368198d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0p6W_min"
+		(at 2.4765 1.843 0)
+		(layer "F.Fab")
+		(uuid "5ead8ec9-b8e5-4e79-a951-75de7a456161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45de7945-2953-4818-9133-defd91f13b35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d2b8701-d1aa-4470-b51e-b32de4f30a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.016 -1.016)
+		(end 5.842 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "685ff055-9adb-4c8a-875e-5ab2d04e0b9b")
+	)
+	(fp_line
+		(start -1.016 1.016)
+		(end -1.016 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dd83063-a614-4af3-be26-ad63ca368efa")
+	)
+	(fp_line
+		(start -1.016 1.016)
+		(end 5.969 1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f5dd497-d562-4a1a-8f98-bdb350b2f09e")
+	)
+	(fp_line
+		(start 5.969 1.016)
+		(end 5.969 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e8022f6-d3e2-4537-84f3-e20c6c63e736")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "58dcb96d-d92e-4697-87bf-36a8a24537fc")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4758338f-65c3-4e08-8f45-17db67bf4093")
+	)
+	(embedded_fonts no)
+)

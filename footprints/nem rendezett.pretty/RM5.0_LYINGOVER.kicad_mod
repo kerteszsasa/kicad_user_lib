@@ -1,0 +1,124 @@
+(footprint "RM5.0_LYINGOVER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "16 mm-nél nagyobb kondik, amelyeket fektetni kell.")
+	(property "Reference" "REF**"
+		(at 0 -5.272 0)
+		(layer "F.SilkS")
+		(uuid "b3f30afa-ca94-4c4c-82e8-993da0192004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RM5.0_LYINGOVER"
+		(at 0 4.383 0)
+		(layer "F.Fab")
+		(uuid "df3c8496-2155-426c-82f1-01d9ce3aa67a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bd6a325-7934-4217-9de2-c65a47a554fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fb32b6-4b15-4b02-8568-4e7aefbbbeee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.016 -4.445)
+		(end 1.016 -4.445)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbcfd258-1fb3-48c9-a8b6-e5f922b0f62a")
+	)
+	(fp_line
+		(start -1.016 3.556)
+		(end -1.016 -4.445)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c170411-1491-4284-a539-5eb541bb4896")
+	)
+	(fp_line
+		(start -1.016 3.556)
+		(end 1.016 3.556)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b9a3134-8e86-4415-a743-ef9e8613dea1")
+	)
+	(fp_line
+		(start 1.016 3.556)
+		(end 1.016 -4.445)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46286c28-5ed9-41ce-a703-4ab18cb737b3")
+	)
+	(fp_text user "+"
+		(at 0.94575 1.524 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a528b34-8483-41bc-8526-c23c80ba9459")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 2.5762 90)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66596eb8-02f1-49fc-9f26-14d813001800")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.4238 90)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "477c3fd1-adf5-4447-b5c0-44db2e04e544")
+	)
+	(embedded_fonts no)
+)

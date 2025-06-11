@@ -1,0 +1,111 @@
+(footprint "STELVIO_5.00MM_M_1x2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "STELVIO CPM 7,62/2-SQ")
+	(property "Reference" "REF**"
+		(at 0.000015 -2.827 0)
+		(layer "F.SilkS")
+		(uuid "7b8826f7-0adb-4f16-88f4-74cd6cb474dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "STELVIO_5.00MM_M_1x2"
+		(at 0.000015 10.82701 0)
+		(layer "F.Fab")
+		(uuid "7190f7b3-15c5-4f3a-b840-ae505766592d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7b05fb6-0c70-4a6b-ab4b-01061b34a9cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2613d948-3a85-4d03-83a0-5910065160d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.99999 -2)
+		(end 5.00002 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c67d6881-0bbf-4511-92f5-9403f531785d")
+	)
+	(fp_line
+		(start -4.99999 10)
+		(end 5.00002 10)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9cd56d1-542f-42f8-98d7-3005a16a7510")
+	)
+	(fp_line
+		(start -4.99999 10.00001)
+		(end -4.99999 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10ae033f-8486-4572-807b-db3ac4db46f1")
+	)
+	(fp_line
+		(start 5.00002 10)
+		(end 5.00002 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f59446ef-e0d5-4dc3-8b99-844ed6a6d7a2")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 2.54 2.54)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94aede2d-1230-4a69-8b9a-73ca5bf1e1bf")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.54 2.54)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "345fa2e5-aea1-4137-8906-ddf237bd6efc")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,231 @@
+(footprint "D-38"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bridge Rectifier; 4 Terminals; Body 9.4 x 9.4 mm (typ); Pitch 5.08 mm")
+	(property "Reference" "REF**"
+		(at 0 -5.8 0)
+		(layer "F.SilkS")
+		(uuid "5bb5c5a7-e7a0-43de-9d6c-0e8a004828cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D-38"
+		(at 0 5.8 0)
+		(layer "F.Fab")
+		(uuid "7d266ea5-5b2f-48de-b7bf-88fcca80653f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d46eed5d-c134-4910-bf10-682e4e72a12c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebd9c6a6-8a03-42b7-aed1-4c718af24392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5 -4.064)
+		(end -4.064 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "856888e8-acda-4774-b090-3809989b1ffd")
+	)
+	(fp_line
+		(start -5 5)
+		(end -5 -4.064)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28e31bda-4dd3-46f2-b10f-2984e17aaf38")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "842d46bb-f9a7-447d-904c-584c4ab7d566")
+	)
+	(fp_line
+		(start -4.064 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "971eaf6d-3f9f-4ec2-a50b-c9a233902252")
+	)
+	(fp_line
+		(start 5 5)
+		(end 5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a662c0b7-0dee-45b6-953b-735c998e6599")
+	)
+	(fp_line
+		(start -5 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a3f8dd2c-4f15-4fe0-8629-90ea66f5aa75")
+	)
+	(fp_line
+		(start -5 5)
+		(end -5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9b6a1c21-6121-4850-8340-96a364a3dab0")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1b2653c5-97ae-4584-908f-c8ec34dbabec")
+	)
+	(fp_line
+		(start 5 5)
+		(end 5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a3330012-4d29-4818-9caa-c89fd6ed0c42")
+	)
+	(fp_text user "-"
+		(at 3.556 5.26375 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "576c141f-d6fa-4be1-9397-ac9651399523")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -4.41 -2.98025 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d49e5dc-0b8e-4992-9856-361bf84a6fba")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "~"
+		(at 3.556 -2.35625 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d512d76c-7a08-4cb1-b83c-e8fa6efbe518")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "~"
+		(at -4.572 5.77175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea8e9f10-860c-4894-bbb4-429e757b3d58")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 -2.54)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60d377dd-cb7d-4124-9118-ca1dd66e8a61")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b788b772-efb8-4477-b7d1-312dbed49fad")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cd27d346-21fc-4087-8d71-2d87e1d49e3a")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ddfe4ee6-eb00-4962-8ada-791cf01d544b")
+	)
+	(embedded_fonts no)
+)

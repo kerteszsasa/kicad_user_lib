@@ -1,0 +1,94 @@
+(footprint "RB5-10.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor (Radial); 2 Leads")
+	(property "Reference" "REF**"
+		(at 0 -6.075 0)
+		(layer "F.SilkS")
+		(uuid "fa718f7f-bca5-49a5-82df-1f93f642face")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RB5-10.5"
+		(at 0 6.075 0)
+		(layer "F.Fab")
+		(uuid "9025337f-92b3-431f-a0b1-474152298c08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b09f401-4e2b-4f65-8a71-2f3df593beb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "814864bb-b977-4e6e-a2d8-f97f240466e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "266d38e3-f393-43dd-9e47-6674506684dc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.25)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "1130cabf-86ec-4807-8db7-aeaf7d2a6de7")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cb4fcf61-222d-410a-95db-340af9fc62f4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "00f2cab6-b3ab-4395-9a93-54de4bba4cf1")
+	)
+	(embedded_fonts no)
+)

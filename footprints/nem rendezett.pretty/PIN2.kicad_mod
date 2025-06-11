@@ -1,0 +1,122 @@
+(footprint "PIN2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Photosensitive Diode; 2 Leads")
+	(property "Reference" "REF**"
+		(at 1.27 -3 0)
+		(layer "F.SilkS")
+		(uuid "91e3fd39-0bdf-468a-8f54-cf0c30907c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PIN2"
+		(at 1.27 2.2 0)
+		(layer "F.Fab")
+		(uuid "f5fe7698-378b-44f1-9f6f-9c64e9462393")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52018cb4-d073-4460-b2eb-4bc24cc305bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9746d866-633f-4248-9009-b39b51d9efa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.4 -1.4)
+		(end 3.94 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c99f7611-31b4-43be-8994-22345d4b086b")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95129532-2adf-41b3-9678-5ef35bdbc2e9")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end 3.94 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1d58f24-33cc-414f-884d-2dc0ae8334c5")
+	)
+	(fp_line
+		(start 3.94 1.4)
+		(end 3.94 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89dd6ce8-3a15-48c0-913f-87e508f66da1")
+	)
+	(fp_circle
+		(center 0 -2.05)
+		(end 0 -2.175)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "835643c7-3d6b-452b-9aa4-29d5e07ba98e")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddcbbe83-3c6b-4722-b19f-a43cc47540ef")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "247329cf-48f9-4788-9b9c-3bf435c5cb68")
+	)
+	(embedded_fonts no)
+)

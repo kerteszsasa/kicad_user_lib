@@ -1,0 +1,112 @@
+(footprint "RAD-0.3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing")
+	(property "Reference" "REF**"
+		(at 0 -2.705 0)
+		(layer "F.SilkS")
+		(uuid "864e9c20-0944-42e4-91d5-4305850bcbd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RAD-0.3"
+		(at 0 2.705 0)
+		(layer "F.Fab")
+		(uuid "e71002a7-08e6-487a-a19f-63521317e328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "058ea538-aa70-4a73-abc6-3e41e80bdbf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2be1145-6a5e-4272-9a53-000ddff08073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.715 -1.905)
+		(end 5.715 -1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3568e10-44e3-4afe-a702-a1610141c253")
+	)
+	(fp_line
+		(start -5.715 1.905)
+		(end -5.715 -1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84eb68bb-4279-4299-b78c-4fe36d7b6850")
+	)
+	(fp_line
+		(start -5.715 1.905)
+		(end 5.715 1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14b2ece1-2911-43b4-aa0d-f55517736eb2")
+	)
+	(fp_line
+		(start 5.715 1.905)
+		(end 5.715 -1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74b148e0-cc53-440b-b956-67cd2b2f5394")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bf72b74b-79c9-4a58-9dfb-53d595b6d9b9")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "56f6a09d-1b3f-491d-a1b6-306b12b8aadf")
+	)
+	(embedded_fonts no)
+)

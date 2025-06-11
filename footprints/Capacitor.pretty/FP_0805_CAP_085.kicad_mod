@@ -1,0 +1,106 @@
+(footprint "FP_0805_CAP_085"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 kapacitás YAGEO 0.85mm magas")
+	(property "Reference" "REF**"
+		(at 0 -1.7016 0)
+		(layer "F.SilkS")
+		(uuid "515174c0-37fe-46c3-a95b-d024acbd38aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_0805_CAP_085"
+		(at 0 1.7016 0)
+		(layer "F.Fab")
+		(uuid "9b9c3cef-407e-48c6-826c-68b3c75da428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca77e2bb-53e5-4f0c-b647-3013cff84981")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "354091b6-556f-4b09-ac14-d3e1b0720726")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.7272 -0.9)
+		(end 1.7272 -0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9f9ae6b-601f-4c56-b708-f73286ccb3d2")
+	)
+	(fp_line
+		(start -1.7272 0.9)
+		(end -1.7272 -0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68425fda-09c3-4e09-a436-fb036c89c52d")
+	)
+	(fp_line
+		(start -1.7272 0.9)
+		(end 1.7272 0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f187e937-2cce-4024-b60d-3ebe106598f6")
+	)
+	(fp_line
+		(start 1.7272 0.9)
+		(end 1.7272 -0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31b6bd8d-af27-4929-9bc5-9aa7053351e2")
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "226c94ab-3e4f-41d6-b356-442ed5def6ae")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f6da7561-50f9-46c7-a510-ab1c2d02897f")
+	)
+	(embedded_fonts no)
+)

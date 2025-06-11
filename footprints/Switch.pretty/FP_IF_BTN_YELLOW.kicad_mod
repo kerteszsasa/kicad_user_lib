@@ -1,0 +1,129 @@
+(footprint "FP_IF_BTN_YELLOW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OMRON ELECTRONIC COMPONENTS - B3FS-1050 - SWITCH, SPNO, EXTENDED")
+	(property "Reference" "REF**"
+		(at -2.25 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "43f1031b-0e08-476d-b827-27d1c3f4270f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_IF_BTN_YELLOW"
+		(at -2.25 10.85 0)
+		(layer "F.Fab")
+		(uuid "06a001d2-1564-4236-84a1-71eb497a5b60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c3adc7f-f55f-424e-9d87-f12081ca24d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f38a3e1e-8450-4bb0-ae5d-b224ceb17222")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.25 1.55)
+		(end 0.75 1.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66be5ac2-7799-44ac-a4fe-68d4242b7c52")
+	)
+	(fp_line
+		(start -5.25 7.55)
+		(end -5.25 1.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9745c6b3-a0a5-4859-aeba-fb52fd90dab0")
+	)
+	(fp_line
+		(start -5.25 7.55)
+		(end 0.75 7.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb6623a1-f4d4-480e-b317-a0b18f0c19ac")
+	)
+	(fp_line
+		(start 0.75 7.55)
+		(end 0.75 1.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16d2fd46-80ab-4d48-b7c0-7001b7e9d9e8")
+	)
+	(fp_circle
+		(center -2.25 4.55)
+		(end -2.25 2.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c21bb508-c600-4351-87a4-b23f9aabadff")
+	)
+	(pad "1" smd rect
+		(at 0 0 180)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8fbfab20-1912-4961-a8e4-5d6a0318759a")
+	)
+	(pad "2" smd rect
+		(at 0 9.1 180)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a3a8720-29b7-4f50-a03b-a8379b1d0f53")
+	)
+	(pad "3" smd rect
+		(at -4.5 0 180)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3328654e-eaa2-4f3a-a9e1-624e4220674e")
+	)
+	(pad "4" smd rect
+		(at -4.5 9.1 180)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6506c122-7b48-4512-97db-23eec2835b45")
+	)
+	(embedded_fonts no)
+)

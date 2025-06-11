@@ -1,0 +1,106 @@
+(footprint "FP_IND_MURATA3131"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Murata Chip Inductor LQH88P Series (3131 Size)")
+	(property "Reference" "REF**"
+		(at 0 -9.2 0)
+		(layer "F.SilkS")
+		(uuid "a2a19576-fd38-4629-97d8-5e154f47902c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FP_IND_MURATA3131"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "23c29540-6aae-4664-b310-157b087d731b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "339d368e-4b0a-4dd6-93f0-b62432ef65ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "207e0645-ea3d-4806-9fdb-ba41272076f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.1 -7.65)
+		(end 4.1 -7.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd10a44b-1c2c-43bc-aec0-91926cbec9ea")
+	)
+	(fp_line
+		(start -4.1 0.55)
+		(end -4.1 -7.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08f46e8f-cf38-49a7-844d-6bd57e99de95")
+	)
+	(fp_line
+		(start -4.1 0.55)
+		(end 4.1 0.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d0c83eb-8fdd-4fed-95f2-ee21e45897ce")
+	)
+	(fp_line
+		(start 4.1 0.55)
+		(end 4.1 -7.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "498fd5d9-763c-427e-9860-bd884b409647")
+	)
+	(pad "1" smd rect
+		(at 0 0 270)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02acc1e1-6c56-4884-8d0c-58fd23cb1743")
+	)
+	(pad "2" smd rect
+		(at 0 -7 270)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6920ca4b-7814-4f65-ab2c-843cb1e45e61")
+	)
+	(embedded_fonts no)
+)

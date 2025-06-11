@@ -1,0 +1,123 @@
+(footprint "1206 LED Reversed"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1206 Green LED")
+	(property "Reference" "REF**"
+		(at -0.17605 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "da631a8f-bf0a-4cdb-8ff1-6a54ea89b5b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1206 LED Reversed"
+		(at -0.17605 1.7 0)
+		(layer "F.Fab")
+		(uuid "989412ac-40bb-47f5-bbe3-12ddda3b2b49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "226f1b2a-d955-4f07-ba3b-6424b533be88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3c6b7c-755a-4735-8770-b128602de231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.5 0.9)
+		(end -2.5 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b897c87-9f68-4f8a-abd7-2866a2f7c2af")
+	)
+	(fp_line
+		(start -2.4 -1.175)
+		(end 2.4 -1.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "aa952ab2-2d45-4b10-8045-76a471d85c3f")
+	)
+	(fp_line
+		(start -2.4 1.175)
+		(end -2.4 -1.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "596a3920-e892-4cc4-85a8-3a268d3afa37")
+	)
+	(fp_line
+		(start -2.4 1.175)
+		(end 2.4 1.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "cf43628e-5b5b-419e-a402-30d369f1408d")
+	)
+	(fp_line
+		(start 2.4 1.175)
+		(end 2.4 -1.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c3eb2f44-b4d4-491b-92c1-f9ac72c0f7c5")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 270)
+		(size 0.762 0.762)
+		(drill oval 0.762)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fd2ca7d4-898a-4c88-9064-b60eb3b29432")
+	)
+	(pad "A" smd rect
+		(at 1.8542 0 270)
+		(size 1.85 0.7874)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5210f0e-6e93-4962-8efe-ffaded112881")
+	)
+	(pad "K" smd rect
+		(at -1.8542 0 270)
+		(size 1.85 0.7874)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "974674c8-0cf7-470a-a8da-fa786f594fde")
+	)
+	(embedded_fonts no)
+)

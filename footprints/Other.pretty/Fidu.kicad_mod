@@ -1,0 +1,61 @@
+(footprint "Fidu"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.081 0)
+		(layer "F.SilkS")
+		(uuid "32280c49-c7dd-4d45-ba62-3cc91c6b6db8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fidu"
+		(at 0 1.081 0)
+		(layer "F.Fab")
+		(uuid "8b3bad59-fa3f-4b7e-a4ec-8dc3cc4cb71a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed191b44-5870-40ad-a27a-fc240404a372")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c07e2c-83f0-406e-b6ff-1a45ff4994aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 0.762 0.762)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.381)
+		(thermal_bridge_angle 90)
+		(uuid "a88a7edd-120f-4e69-a36a-0cf2cc70f8d5")
+	)
+	(embedded_fonts no)
+)

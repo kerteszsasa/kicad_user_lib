@@ -1,0 +1,62 @@
+(footprint "via_300x400"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.462 0)
+		(layer "F.SilkS")
+		(uuid "0b0cd2d3-4d57-4f3b-a35e-a29eb01806d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "via_300x400"
+		(at 0 1.462 0)
+		(layer "F.Fab")
+		(uuid "e4a9fbf5-a1d1-485f-aecf-cef54957628d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6366b4f7-b592-4e5f-84a4-a8e31871b772")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7c21944-c2e7-4040-a122-060b04a833f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4625cf9a-d215-48b5-86d2-8cd929352c34")
+	)
+	(embedded_fonts no)
+)

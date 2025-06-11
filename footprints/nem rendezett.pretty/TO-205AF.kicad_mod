@@ -1,0 +1,180 @@
+(footprint "TO-205AF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Can; 3 Leads; Pin Circle Dia. 5.08 mm; Lead Dia. 0.53 mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -5.49999 0)
+		(layer "F.SilkS")
+		(uuid "8c828c56-365d-42b3-9b2e-576b8cbc1ad3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-205AF"
+		(at 0 5.49999 0)
+		(layer "F.Fab")
+		(uuid "b2415eed-d746-41b6-ae19-bdecf46daae6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41842288-5b57-4853-bab6-b5844631905a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c5861aa-abbf-4119-b138-a4395e5d64ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.47487 -3.83847)
+		(end -3.83847 -4.47487)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7029aac-b363-4b08-9af5-185f9cfcb227")
+	)
+	(fp_line
+		(start -4.47487 -3.83847)
+		(end -3.62633 -2.98994)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd76371-b906-4ba0-9dc4-187a3df02a2f")
+	)
+	(fp_line
+		(start -3.83847 -4.47487)
+		(end -2.98994 -3.62633)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f6731c2-d8cf-4d07-aec9-bb48964e3d6d")
+	)
+	(fp_arc
+		(start -2.989941 -3.626315)
+		(mid 3.323395 3.323395)
+		(end -3.626315 -2.989941)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cb35653-6a92-437b-970e-f9e6c8f391da")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "678cf6da-7011-40e8-8ae5-57b64922c668")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b002e3e9-0628-4577-b9c1-2376af6b7f37")
+	)
+	(fp_text user "1"
+		(at -6.201 0.88075 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c9bb0e2-1c0b-494c-9746-cb68abfa41e2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at -0.41501 7.42176 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9957834-e618-42ea-a96d-9055b62b0eac")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 5.69399 0.93475 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb96ddfc-e775-46ba-8206-8e6814aa69c4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee87ca84-a059-46a6-b139-7c887673d1a5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9bee9279-69b2-4f5b-ba2c-ef8953d5acd7")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ed2d4138-9de6-47c4-ad3f-537709ba67d4")
+	)
+	(embedded_fonts no)
+)

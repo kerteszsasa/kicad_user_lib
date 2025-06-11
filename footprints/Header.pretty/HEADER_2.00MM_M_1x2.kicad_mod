@@ -1,0 +1,112 @@
+(footprint "HEADER_2.00MM_M_1x2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2×1-es tüskesor, 2mm-es raszter, 1.5mm mûanyag + 3.2mm tüske SAMTEC-TMM-1XX-01-...")
+	(property "Reference" "REF**"
+		(at 0 -2.827 0)
+		(layer "F.SilkS")
+		(uuid "925c460f-2558-4940-9516-048a79c031a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HEADER_2.00MM_M_1x2"
+		(at 0 2.827 0)
+		(layer "F.Fab")
+		(uuid "aee918f7-fe23-4450-8b36-c3ddb4a9fb4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b52476-a896-4442-9e3c-1a9deb2728be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "514972d8-5c1d-4a76-913a-b38a4f582f4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -2)
+		(end 1 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca41b265-58cd-4bbd-ad73-09cbc4eabd07")
+	)
+	(fp_line
+		(start -1 2)
+		(end -1 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c91188a1-1100-41d8-8dd0-78d8dea654fa")
+	)
+	(fp_line
+		(start -1 2)
+		(end 1 2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4aeda1d5-5ec5-4f02-84db-72ed2df8e9fd")
+	)
+	(fp_line
+		(start 1 2)
+		(end 1 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1df0cf1d-af72-4814-b38c-6b61f44c631e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 1)
+		(size 1.2192 1.2192)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4c4b2ff7-d48a-4e12-bdda-3e2e3325def3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1)
+		(size 1.2192 1.2192)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "29db6882-528c-4058-b824-ed2ee8cec60f")
+	)
+	(embedded_fonts no)
+)

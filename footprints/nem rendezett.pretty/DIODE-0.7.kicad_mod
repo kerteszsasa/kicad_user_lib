@@ -1,0 +1,142 @@
+(footprint "DIODE-0.7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, Thru-Hole; 2 Leads; 0.7 in Pin Spacing")
+	(property "Reference" "REF**"
+		(at 0 -3.34 0)
+		(layer "F.SilkS")
+		(uuid "0d0b858a-e45e-472a-aca4-7f1159926ef1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIODE-0.7"
+		(at 0 3.34 0)
+		(layer "F.Fab")
+		(uuid "a8e8bf56-9448-4fdd-8f6a-37c7e18f1bf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66ec1ad6-c622-46db-9ed9-838e52a8afe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ef6e277-a7bc-4646-9395-8921951ae30d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.366 0)
+		(end -6.35 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ee3a19f-b609-4ac0-a867-a2fcdeb463a3")
+	)
+	(fp_line
+		(start -6.35 -2.54)
+		(end 6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "397f3d8b-a5d3-42a3-9bcd-bf11c1f3f723")
+	)
+	(fp_line
+		(start -6.35 2.54)
+		(end -6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5348b3f-1d03-40c6-9fee-ce294acfcb03")
+	)
+	(fp_line
+		(start -6.35 2.54)
+		(end 6.35 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0a8e288-c45e-4f95-a736-9d653ffe28dd")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 3.81 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d076dee-1942-4f85-aba9-7e0d3e312ec5")
+	)
+	(fp_line
+		(start 6.35 0)
+		(end 7.366 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3f7696d-7cfe-43bd-9b68-895f7789e505")
+	)
+	(fp_line
+		(start 6.35 2.54)
+		(end 6.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e0b9893-7e01-4aee-a2cb-f634ab7ec5e8")
+	)
+	(pad "1" thru_hole circle
+		(at -8.89 0)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "622e51b0-1b63-4b1a-a708-3778b3010cff")
+	)
+	(pad "2" thru_hole circle
+		(at 8.89 0)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "aace95e6-bba9-443c-a631-916b96f80cfd")
+	)
+	(embedded_fonts no)
+)

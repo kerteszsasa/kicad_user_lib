@@ -1,0 +1,77 @@
+(footprint "LED_0605_RGB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "40a4bb69-80f3-4795-8b41-8cbc6d4719d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_0605_RGB"
+		(at 0 1.45 0)
+		(layer "F.Fab")
+		(uuid "f7eb39c1-7c6c-4011-a322-deb93e7ad900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50ddaea9-7f77-462e-9663-b0c61a74a201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "147bda9f-6913-49a9-a525-1bb6a13e2599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -0.75 0.425)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0bc4166f-c828-4681-acff-62b5d8c1d4d7")
+	)
+	(pad "K1" smd rect
+		(at -0.75 -0.425)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6901fca-b1fb-4415-82b5-1d2ca9ff90e6")
+	)
+	(pad "K2" smd rect
+		(at 0.75 -0.425)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c36c649b-dd85-42ce-8d15-d345b51c7114")
+	)
+	(pad "K3" smd rect
+		(at 0.75 0.425)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a305ab9f-64aa-4d51-a16b-36f1ef7ba3bf")
+	)
+	(embedded_fonts no)
+)

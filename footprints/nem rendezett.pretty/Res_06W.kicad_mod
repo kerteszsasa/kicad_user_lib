@@ -1,0 +1,111 @@
+(footprint "Res_06W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.716 0)
+		(layer "F.SilkS")
+		(uuid "15e90214-5245-4859-870a-23ed0a072a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Res_06W"
+		(at 0 10.098 0)
+		(layer "F.Fab")
+		(uuid "61744bdb-a7a3-4e5c-9498-9efd8cfbb95a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e425977-9fb1-49f8-98d0-f006cf631a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0d99058-8065-45c0-8745-3dc3db433809")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.143 -0.889)
+		(end 1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cc98a5d-3995-428f-9b8c-b8180c5bf6b7")
+	)
+	(fp_line
+		(start -1.143 9.271)
+		(end -1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72163c6d-c68f-4a87-8042-80ca63f21d55")
+	)
+	(fp_line
+		(start -1.143 9.271)
+		(end 1.143 9.271)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4805bf05-4944-4cbb-9a01-5d4cc0321004")
+	)
+	(fp_line
+		(start 1.143 9.271)
+		(end 1.143 -0.889)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c77e0fdd-392a-4b25-b967-073438657494")
+	)
+	(pad "1" thru_hole circle
+		(at 0 8.382 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a20200f9-943e-48e2-8d90-652703451757")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6bc123e2-989c-40cc-bf8f-d20da78462a5")
+	)
+	(embedded_fonts no)
+)

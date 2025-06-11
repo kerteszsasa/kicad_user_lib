@@ -1,0 +1,129 @@
+(footprint "STELVIO_3.81MM_M_1x4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "STELVIO gyártmányú sorkapocs csatlakozó MRT9 fekvõ")
+	(property "Reference" "REF**"
+		(at -0.015 -2.027 0)
+		(layer "F.SilkS")
+		(uuid "c12b8085-f9bf-419d-95a3-253b742afad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "STELVIO_3.81MM_M_1x4"
+		(at -0.015 8.827 0)
+		(layer "F.Fab")
+		(uuid "8477c5c3-0b10-42d2-9f6d-4ca477671c51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fc950a5-335d-4877-9543-670aa38ae323")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aa20c5f-5572-45f0-a106-199794311f6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.315 -1.2)
+		(end 8.285 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "636bd9e6-7d0e-441d-be17-7154f719f20b")
+	)
+	(fp_line
+		(start -8.315 8)
+		(end -8.315 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34e10230-605b-4a67-a0fb-cc0ab3b5b377")
+	)
+	(fp_line
+		(start -8.315 8)
+		(end 8.285 8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38512d1f-afee-4e64-a7c7-4048367282f8")
+	)
+	(fp_line
+		(start 8.285 8)
+		(end 8.285 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4b3b79c-ff9f-41a1-9038-8ea974f7dd9c")
+	)
+	(pad "1" thru_hole rect
+		(at -5.715 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a069d573-5eb4-492b-b6af-912cd8a3985c")
+	)
+	(pad "2" thru_hole circle
+		(at -1.905 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d4326d95-c1aa-43d3-b127-38ee70f005d8")
+	)
+	(pad "3" thru_hole circle
+		(at 1.905 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "45961b37-b190-4a3a-b250-cacf94fd6f4f")
+	)
+	(pad "4" thru_hole circle
+		(at 5.715 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e92071d3-490d-415e-8335-2943f9d88934")
+	)
+	(embedded_fonts no)
+)

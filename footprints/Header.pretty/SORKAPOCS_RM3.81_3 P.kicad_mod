@@ -1,0 +1,122 @@
+(footprint "SORKAPOCS_RM3.81_3 P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SORKAPOCS 3 P RM3.81 CSAPSORLÉC TLPHC100V-03P (TLM) ZÁRT 8A 150V VDE [43-22-68]")
+	(property "Reference" "REF**"
+		(at 0.0058 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "a7c0194f-79b1-4b25-8d96-ded3296a6615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SORKAPOCS_RM3.81_3 P"
+		(at 0.0058 8.8 0)
+		(layer "F.Fab")
+		(uuid "6d53494c-100b-430c-99f2-4f8ffea56d2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9115ea94-0852-4aca-9c1e-9a7f8b8b0d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "492e397b-67bf-4b59-9fe9-69a9d6fe5c03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.9384 -1.5)
+		(end 5.95 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e51800ae-fcce-4e5d-950b-3102a8414d0a")
+	)
+	(fp_line
+		(start -5.9384 8)
+		(end -5.9384 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f0cdf2-e87c-48d9-b872-ed3d3ebfddb4")
+	)
+	(fp_line
+		(start -5.9384 8)
+		(end 5.95 8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48f02715-b963-4018-95b7-7dfc655f302d")
+	)
+	(fp_line
+		(start 5.95 8)
+		(end 5.95 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2788fd97-cc0a-427b-9dff-7b3da9ec272b")
+	)
+	(pad "1" thru_hole rect
+		(at 3.5 0 180)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5ecd296-57a2-46a2-a1ab-d1ff6cc2e63a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 180)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 90)
+		(uuid "af2a4809-eeb9-4306-8bab-30658733e1e5")
+	)
+	(pad "3" thru_hole circle
+		(at -3.5 0 180)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 90)
+		(uuid "b9f2dd4c-3325-4aae-bb84-119cc887b604")
+	)
+	(embedded_fonts no)
+)

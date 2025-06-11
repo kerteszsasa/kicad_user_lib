@@ -1,0 +1,72 @@
+(footprint "SMD_JMP_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3 forpad-es smd jumper, 0R-ekkel beultetheto")
+	(property "Reference" "REF**"
+		(at 1.7145 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "d88e6d31-12a3-4f20-9b6d-ba6947cd69e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD_JMP_0603"
+		(at 1.7145 1.2 0)
+		(layer "F.Fab")
+		(uuid "490eafe3-1042-4697-94c0-9d7529e01453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ce2ff6d-2053-4298-a9d0-4e5a52fae959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8fab6ce-7a0b-4b45-85d6-a1b5543b95cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.429 0 270)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df08dd03-d72b-44dc-9258-615a8bbc9207")
+	)
+	(pad "2" smd rect
+		(at 0 0 270)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "967d870f-7718-4c59-bc77-bece66462040")
+	)
+	(pad "3" smd rect
+		(at 1.7018 0 270)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e706e8dd-17d9-4e92-b73e-4be5e5bd64a1")
+	)
+	(embedded_fonts no)
+)
