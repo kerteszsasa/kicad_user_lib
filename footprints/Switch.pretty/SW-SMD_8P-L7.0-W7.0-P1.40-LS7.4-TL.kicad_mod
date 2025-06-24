@@ -287,6 +287,12 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at 0 -4)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07c84053-0822-4318-a4b5-e46ac8b2e595")
+	)
 	(pad "" thru_hole circle
 		(at 0 -1.9)
 		(size 1.1 1.1)
@@ -302,6 +308,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a0231891-791a-4292-a315-0474cffa7861")
+	)
+	(pad "" smd rect
+		(at 0 4)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15c7abf9-5846-4a84-a664-5b062e75bae5")
 	)
 	(pad "1" smd rect
 		(at -3.25 -1.4)
@@ -338,18 +350,6 @@
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "713c6366-9325-4fc7-b0ca-2b51dd60cad4")
-	)
-	(pad "7" smd rect
-		(at 0 -4)
-		(size 1.5 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "07c84053-0822-4318-a4b5-e46ac8b2e595")
-	)
-	(pad "8" smd rect
-		(at 0 4)
-		(size 1.5 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "15c7abf9-5846-4a84-a664-5b062e75bae5")
 	)
 	(embedded_fonts no)
 	(model "${CUSTOM_3DMODEL_DIR}/SW-SMD_8P-L7.0-W7.0-P1.40-LS7.4-TL.wrl"
