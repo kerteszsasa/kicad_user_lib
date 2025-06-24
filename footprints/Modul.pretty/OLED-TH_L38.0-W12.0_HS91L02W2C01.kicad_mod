@@ -1,0 +1,160 @@
+(footprint "OLED-TH_L38.0-W12.0_HS91L02W2C01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.81 0)
+		(layer "F.SilkS")
+		(uuid "972afc4f-f15a-4a0a-90dc-669ed812906c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED-TH_L38.0-W12.0_HS91L02W2C01"
+		(at 0 7.81 0)
+		(layer "F.Fab")
+		(uuid "e2342d18-4fe4-4cff-bce6-957dfdb65cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28bc8fb0-cdf3-4b28-a07e-b93f7bbb0497")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ff87b9f-cdfd-4de4-88d3-8f13b34c974b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -6)
+		(end 36.5 -6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1922c0a0-ae7b-4e20-95d3-f548105dbed8")
+	)
+	(fp_line
+		(start -1.5 6)
+		(end -1.5 -6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90daf4b8-68fe-49d8-b651-e3e620ba274d")
+	)
+	(fp_line
+		(start 36.5 -6)
+		(end 36.5 6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "767cdee3-05c7-4043-be63-e9d1958d74d0")
+	)
+	(fp_line
+		(start 36.5 6)
+		(end -1.5 6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c5e15f5-e2cc-43b8-955e-ede234885317")
+	)
+	(fp_text user "1"
+		(at 1.66 5.68 0)
+		(layer "F.SilkS")
+		(uuid "ee9a5654-9f47-4b81-83e5-ac4376043332")
+		(effects
+			(font
+				(size 2.03 2.03)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2311425e-2003-4f36-88fb-45c50c501d48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.81)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ec33da9-dc1a-44d0-9594-0b6e0e4a4d23")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.27)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e070cead-a342-4c1b-a3a3-88011863f33e")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -1.27)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bf439e7-baf7-4ecf-bf59-d644c8a8a479")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -3.81)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7638899-98f5-4741-94b6-df8bb3175520")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/OLED-TH_L38.0-W12.0_HS91L02W2C01.wrl"
+		(offset
+			(xyz 17.5 -0 2.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
