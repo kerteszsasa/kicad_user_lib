@@ -1,0 +1,129 @@
+(footprint "SOD-523_L1.2-W0.8-LS1.6-BI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "5b8b9322-fb96-403e-9e42-700fcf7d5396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD-523_L1.2-W0.8-LS1.6-BI"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "1337463c-c2bf-453c-b1c5-f67bb329df5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7f79416-9c25-487b-a8b1-0b553b965f4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea95b9b-512c-4636-b15d-dcc19885f6d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 -0.5)
+		(end 0.65 -0.5)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "484ad0b7-b7f0-40ad-8477-6dbb71e5ddcb")
+	)
+	(fp_line
+		(start -0.65 0.5)
+		(end 0.65 0.5)
+		(stroke
+			(width 0.13)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0cefbb4-3f97-4708-a9de-9456c2add2fe")
+	)
+	(fp_line
+		(start 0 -0.23)
+		(end 0 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "681a98fc-91a7-49e8-ba73-e98fdfe5ac35")
+	)
+	(fp_circle
+		(center -0.8 0.4)
+		(end -0.77 0.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b16a54d1-f1dd-443c-bf37-222c3b00a8b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a7222c11-9ca9-425e-91a0-8572fbeaf3ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb1c50f9-80bf-4e26-83e2-8705fe85f5e6")
+	)
+	(pad "2" smd rect
+		(at 0.75 0 180)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "654a7378-7f1c-4b61-bdd2-6efa7881ec1c")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/SOD-523_L1.2-W0.8-LS1.6-BI.wrl"
+		(offset
+			(xyz 0.2 0 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
