@@ -28398,24 +28398,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 8.89 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "TP8485E-SR"
-			(at 19.05 -25.4 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DIGITAL_SOIC8"
-			(at 0 0 0)
+		(property "Footprint" "0_Digital:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28423,8 +28422,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/RS-485-RS-422_TP8485E-SR_C94206.html"
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28441,38 +28440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sample" "https://lcsc.com/products/RS-485-RS-422-ICs_578.html?q=TP8485E-SR"
-			(at -5.588 -27.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Part number" "TP8485E-SR"
-			(at -5.588 -27.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Leírás" "Fail-SafeRS-485  Transceiver"
-			(at -5.588 -27.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*DIGITAL_SOIC8*"
-			(at 0 0 0)
+		(property "LCSC Part" "C94206"
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28480,258 +28449,47 @@
 				(hide yes)
 			)
 		)
-		(symbol "TP8485E-SR_1_0"
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 2.794 -2.54)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -7.62) (xy 7.366 -7.62) (xy 7.366 -9.144)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy 0 -10.16)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy 5.334 -10.16)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.794 -2.54) (xy 2.794 -3.81) (xy 5.334 -3.81)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.366 -2.286) (xy 7.366 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.636 -9.398) (xy 15.24 -9.398)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -2.54) (xy 17.78 -2.54)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -10.16) (xy 12.7 -10.16)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.906 -5.08) (xy 15.24 -5.08)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -2.54) (xy 12.7 -10.16)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 12.7 -2.54)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -5.08) (xy 15.24 -9.398)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 15.24 -7.62)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
+		(symbol "TP8485E-SR_0_1"
 			(rectangle
-				(start 17.78 2.54)
-				(end 0 -17.78)
+				(start -7.62 6.86)
+				(end 7.62 -6.86)
 				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 128 0 0 1)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 17.78 -7.62) (xy 15.24 -7.62)
-				)
+			(circle
+				(center -6.35 5.59)
+				(radius 0.38)
 				(stroke
-					(width 0.0254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(text "D"
-				(at 6.096 -10.922 0)
-				(effects
-					(font
-						(size 1.0922 1.0922)
-					)
-					(justify left bottom)
+			(circle
+				(center -6.35 5.59)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(text "R"
-				(at 7.62 -4.572 0)
-				(effects
-					(font
-						(size 1.0922 1.0922)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "A"
-				(at 16.256 -2.286 0)
-				(effects
-					(font
-						(size 1.0922 1.0922)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "B"
-				(at 16.256 -7.366 0)
-				(effects
-					(font
-						(size 1.0922 1.0922)
-					)
-					(justify left bottom)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~{RE}"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
+			(pin unspecified line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "RO"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -28743,13 +28501,31 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -7.62 0)
-				(length 5.08)
+			(pin unspecified line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "RE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -1.27 0)
+				(length 2.54)
 				(name "DE"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -28761,13 +28537,13 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -10.16 0)
-				(length 5.08)
-				(name "DI"
+			(pin unspecified line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "D"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -28779,27 +28555,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -15.24 0)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 0 180)
-				(length 5.08)
+			(pin unspecified line
+				(at 10.16 3.81 180)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -28815,13 +28573,31 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 22.86 -2.54 180)
-				(length 5.08)
-				(name "A"
+			(pin unspecified line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "B/Z"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "A/Y"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -28833,17 +28609,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 22.86 -7.62 180)
-				(length 5.08)
-				(name "B"
+			(pin unspecified line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
