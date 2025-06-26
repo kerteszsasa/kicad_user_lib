@@ -5226,6 +5226,232 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "DS1307ZM_TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS1307ZM/TR"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_Digital:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589040262954307584"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOP-8 Real Time Clocks ROHS 5V only"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C910864"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DS1307ZM_TR_0_1"
+			(rectangle
+				(start -11.43 6.35)
+				(end 11.43 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -10.16 5.08)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 3.81 0)
+				(length 2.54)
+				(name "X1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 1.27 0)
+				(length 2.54)
+				(name "X2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -1.27 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 1.27 180)
+				(length 2.54)
+				(name "SQW/OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -1.27 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "DS2480B+"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23986,28 +24212,45 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PCF8563"
+	(symbol "PCF8563TS_5,118"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 1.27 0)
+			(at 0 8.89 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PCF8563"
-			(at -1.27 -3.81 0)
+		(property "Value" "PCF8563TS/5,118"
+			(at 0 -8.89 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Digital:TSSOP-8_L3.0-W3.0-P0.65-LS4.9-BL"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hu.mouser.com/datasheet/2/302/PCF8563-3139707.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C TSSOP-8-3.0mm Real Time Clocks ROHS 1.0 V to 5.5 V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24016,8 +24259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "LCSC Part" "C27397"
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24025,49 +24268,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCF8563"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PCF8563_1_0"
+		(symbol "PCF8563TS_5,118_0_1"
 			(rectangle
-				(start 10.16 7.62)
-				(end -10.16 -5.08)
+				(start -11.43 6.86)
+				(end 11.43 -6.35)
 				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 128 0 0 1)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin input line
-				(at -17.78 5.08 0)
-				(length 7.62)
-				(name "OSCI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(circle
+				(center -10.16 5.59)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
-			(pin output line
-				(at -17.78 2.54 0)
-				(length 7.62)
+			(circle
+				(center -10.16 5.59)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 1.27 0)
+				(length 2.54)
 				(name "OSCO"
 					(effects
 						(font
@@ -24083,10 +24320,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 0 0)
-				(length 7.62)
-				(name "INT-"
+			(pin unspecified line
+				(at -13.97 -1.27 0)
+				(length 2.54)
+				(name "~{INT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24101,9 +24338,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -17.78 -2.54 0)
-				(length 7.62)
+			(pin unspecified line
+				(at -13.97 -3.81 0)
+				(length 2.54)
 				(name "VSS"
 					(effects
 						(font
@@ -24119,10 +24356,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 5.08 180)
-				(length 7.62)
-				(name "VCC"
+			(pin unspecified line
+				(at 13.97 3.81 180)
+				(length 2.54)
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24137,9 +24374,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 2.54 180)
-				(length 7.62)
+			(pin unspecified line
+				(at 13.97 1.27 180)
+				(length 2.54)
 				(name "CLKOUT"
 					(effects
 						(font
@@ -24155,9 +24392,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 0 180)
-				(length 7.62)
+			(pin unspecified line
+				(at 13.97 -1.27 180)
+				(length 2.54)
 				(name "SCL"
 					(effects
 						(font
@@ -24173,9 +24410,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -2.54 180)
-				(length 7.62)
+			(pin unspecified line
+				(at 13.97 -3.81 180)
+				(length 2.54)
 				(name "SDA"
 					(effects
 						(font
@@ -24184,6 +24421,26 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCF8563TS_5,118_1_1"
+			(pin unspecified line
+				(at -13.97 3.81 0)
+				(length 2.54)
+				(name "OSCI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
