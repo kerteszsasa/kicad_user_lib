@@ -9576,7 +9576,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.874 5.08 0)
+			(at 0.508 6.604 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -9584,16 +9584,16 @@
 			)
 		)
 		(property "Value" "VO1400AEFTR"
-			(at -7.874 -7.62 0)
+			(at 9.906 -8.128 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Footprint" "OPTO_SOP-4"
-			(at 0 0 0)
+		(property "Footprint" "0_Led_optical:OPTO_SOP-4"
+			(at 1.778 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,8 +9601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881750604439552"
+			(at 166.37 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9611,7 @@
 			)
 		)
 		(property "Description" "Solid State Relay"
-			(at 0 0 0)
+			(at 1.016 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,13 +9619,12 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "http://hu.mouser.com/ProductDetail/Vishay/VO1400AEFTR/?qs=%2fha2pyFadui9kQYq1%252bWCdvt6xmSkcEt%252bmZ8kFeM12l8%3d"
-			(at -10.668 7.62 0)
+		(property "LCSC Part" "C142551"
+			(at 0.508 -12.7 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9638,10 +9637,36 @@
 				(hide yes)
 			)
 		)
+		(symbol "VO1400AEFTR_0_1"
+			(polyline
+				(pts
+					(xy -2.0942 -0.4792) (xy -0.8242 -1.7492) (xy -1.1039 -1.0187) (xy -0.8242 -1.7492) (xy -1.5702 -1.485)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.3792 0.0959) (xy -0.1092 -1.1741) (xy -0.3889 -0.4436) (xy -0.1092 -1.1741) (xy -0.8552 -0.9099)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "VO1400AEFTR_1_0"
 			(polyline
 				(pts
-					(xy -7.62 2.54) (xy -5.08 2.54)
+					(xy -6.35 2.54) (xy -3.556 2.54)
 				)
 				(stroke
 					(width 0)
@@ -9653,91 +9678,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.334 2.54)
-				(mid -4.8262 2.5511)
-				(end -5.333 2.5179)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.794 2.54)
-				(mid -2.2862 2.5511)
-				(end -2.793 2.5179)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.826 2.54) (xy 4.826 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.826 -0.762) (xy 4.826 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.842 -0.762) (xy 3.81 -0.762) (xy 4.826 1.27) (xy 5.842 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.096 1.27) (xy 3.556 1.27)
+					(xy -6.35 -2.54) (xy -3.556 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -9748,8 +9689,8 @@
 				)
 			)
 			(rectangle
-				(start 7.62 5.08)
-				(end -7.62 -5.08)
+				(start -6.35 -5.08)
+				(end 8.89 5.08)
 				(stroke
 					(width 0)
 					(type solid)
@@ -9761,7 +9702,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 2.54) (xy 4.826 2.54)
+					(xy -4.826 -1.27) (xy -2.286 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -9773,7 +9714,91 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -2.54) (xy 4.826 -2.54)
+					(xy -4.572 0.762) (xy -2.54 0.762) (xy -3.556 -1.27) (xy -4.572 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 0.762) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 -2.54) (xy -3.556 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.064 -2.54)
+				(mid 3.5562 -2.5511)
+				(end 4.063 -2.5179)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.604 -2.54)
+				(mid 6.0962 -2.5511)
+				(end 6.603 -2.5179)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 2.54) (xy 6.35 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -2.54) (xy 6.35 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -9784,16 +9809,16 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
-				(name "E"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9802,25 +9827,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 2.54 180)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -9838,16 +9845,34 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
-				(name "A"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
