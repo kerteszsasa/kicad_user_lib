@@ -81,6 +81,26 @@
 		(uuid "47db9afb-d08c-4427-8c38-b92286d35b12")
 	)
 	(fp_line
+		(start -6.5 8.869676)
+		(end -6.5 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "811766a0-b33f-4f6a-b8f6-e06303191290")
+	)
+	(fp_line
+		(start -6.5 12.5)
+		(end 5 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72a11afc-7b79-4536-b4c4-c777e3c6c5ad")
+	)
+	(fp_line
 		(start -0.02 8.79)
 		(end 3.64 9.68)
 		(stroke
@@ -109,6 +129,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c23faf16-dbce-477c-9b43-f35192eacb6a")
+	)
+	(fp_line
+		(start 5 12.5)
+		(end 5 9.661465)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f254eb11-9491-4cfe-9f1f-8aec1d20c3d0")
 	)
 	(fp_line
 		(start 7.32 3.91)
@@ -270,6 +300,7 @@
 	)
 	(embedded_fonts no)
 	(model "${CUSTOM_3DMODEL_DIR}/TF-SMD_TF-02.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 -2.18 2)
 		)
@@ -278,6 +309,17 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/TF-01A.step"
+		(offset
+			(xyz 7.4 -9.65 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )
