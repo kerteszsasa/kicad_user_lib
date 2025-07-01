@@ -147,6 +147,7 @@
 	)
 	(embedded_fonts no)
 	(model "${CUSTOM_3DMODEL_DIR}/OLED-TH_L38.0-W12.0_HS91L02W2C01.wrl"
+		(hide yes)
 		(offset
 			(xyz 17.5 -0 2.4)
 		)
@@ -154,7 +155,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/HS91L02W2C01.stp"
+		(offset
+			(xyz 17.7 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
 		)
 	)
 )
