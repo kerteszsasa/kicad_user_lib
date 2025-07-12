@@ -1,0 +1,218 @@
+(footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.71 0)
+		(layer "F.SilkS")
+		(uuid "fd93b4cf-eb21-4002-854f-88ad2cde6d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+		(at 0 6.71 0)
+		(layer "F.Fab")
+		(uuid "745c7454-04bb-4b43-b193-e1fef3fad652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb0fc162-e799-4423-824e-9e1dc4c712b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f586000c-c7dc-42d4-a7fc-e9ac0521fc90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -2.5 -0.73)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e84f7c27-fb76-4021-bb9b-46e6aa8fd5fc")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end 2.5 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1acb38c-2b7c-4fca-8b5c-f1656dca006a")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end -2.5 0.73)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9acc5e45-c333-4bd4-a26d-e9b274bead48")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c7def82-3dc7-401a-9cd3-7a9f9be2eb81")
+	)
+	(fp_line
+		(start 2.5 -1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bec933b4-6dea-4480-bd8b-6fc79ef5370c")
+	)
+	(fp_arc
+		(start -2.48726 -0.729889)
+		(mid -2.50637 0.729972)
+		(end -2.5 -0.73)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9932366a-11a8-4402-9637-216bc385873e")
+	)
+	(fp_circle
+		(center -1.78 1.02)
+		(end -1.63 1.02)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3c21a541-7990-4a2c-9b03-90e8d18c5480")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9f7907af-f7d1-47fc-aa7a-9815bccbe7a0")
+	)
+	(fp_circle
+		(center -2.41 2.54)
+		(end -2.38 2.54)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "107755d7-dc49-414b-b4c6-b20fa3baa377")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "412cc938-cfc2-42cb-8638-6cece641c1d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "830052a7-22bb-41a8-96f2-4016735d671c")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81a2d7bb-c78c-40e2-9bf0-75e63ae97800")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5d0dcf8-6530-4d71-9653-3badc3ec0e13")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c9bba14-8479-4d5e-a02b-d3f8052b44db")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "919ad6d0-47ba-40a3-b005-a0e7989e040a")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8244575-20f8-49e1-b1b6-4b35774db14b")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ded5865-50bc-4a11-bdb1-0c420b9c697f")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43618421-e485-401c-933f-fe8d10b9dafb")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
