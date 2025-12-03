@@ -1201,6 +1201,7 @@
 				(stroke
 					(width 0)
 					(type solid)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -1213,7 +1214,6 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -1487,6 +1487,7 @@
 				(stroke
 					(width 0)
 					(type solid)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -1499,7 +1500,6 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -3496,7 +3496,6 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -3509,6 +3508,7 @@
 				(stroke
 					(width 0)
 					(type solid)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -3762,6 +3762,7 @@
 				(stroke
 					(width 0)
 					(type solid)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -3774,7 +3775,6 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -5572,7 +5572,6 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -5585,6 +5584,7 @@
 				(stroke
 					(width 0)
 					(type solid)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -10855,7 +10855,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "XL-0807RGBC-WS2812B"
+	(symbol "XL-0807RGBC-2812B"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10867,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-0807RGBC-WS2812B"
+		(property "Value" "XL-0807RGBC-2812B"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Led_optical:LED-SMD_4P-L2.0-W1.8_CY-0807"
+		(property "Footprint" "0_Led_optical:LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -10893,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD,1.8x2mm RGB LEDs(Built-in IC) ROHS"
+		(property "Description" "-20℃~+85℃ 0.35mA 0.8mm 1.8mm 120° 2mm 3000V 4.5kHz 4V~5.5V 800Kbit/s G:525nm R:200mcd R:620nm~630nm Water Clear op View Mount SMD-4P,2x1.8mm RGB LEDs(Built-in IC) ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10911,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "XL-0807RGBC-WS2812B_0_1"
+		(symbol "XL-0807RGBC-2812B_0_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -2.54)
@@ -10937,7 +10937,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "VDD"
+				(name "DOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10955,7 +10955,7 @@
 			(pin unspecified line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "DOUT"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10973,7 +10973,7 @@
 			(pin unspecified line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "DIN"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10991,7 +10991,7 @@
 			(pin unspecified line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "GND"
+				(name "DIN"
 					(effects
 						(font
 							(size 1.27 1.27)
