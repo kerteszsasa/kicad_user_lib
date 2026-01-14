@@ -1,0 +1,392 @@
+(footprint "Test_pin_1x15_P100-E2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -15.24 -2.097 0)
+		(layer "F.SilkS")
+		(uuid "235ff5b1-2376-442f-af63-6004e8d4b749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Test_pin_1x15_P100-E2 "
+		(at -15.24 2.097 0)
+		(layer "F.Fab")
+		(uuid "1c0943a0-ff92-4154-ae2c-020934de1934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83618f3e-c57b-4546-93c0-caa4cf8535bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "For this header pin: P100-E2 "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbef715d-2025-4b39-a8d9-86ddd0d7fb01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -19.05 -1.27)
+		(end 19.05 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4d54343-fe54-45d8-8d7b-569802578418")
+	)
+	(fp_line
+		(start -19.05 1.27)
+		(end -19.05 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0d6f8c7-8739-443c-8c5d-ffdb1e4302a2")
+	)
+	(fp_line
+		(start -19.05 1.27)
+		(end 19.05 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f3b4911-fc6d-4436-904d-bf63a94f4fd9")
+	)
+	(fp_line
+		(start 19.05 1.27)
+		(end 19.05 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b7a44a6-6bf6-4b9b-9802-8a65e004de6a")
+	)
+	(pad "1" thru_hole rect
+		(at -17.78 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ab1b807-5490-438a-a53c-6d337c743e59")
+	)
+	(pad "2" thru_hole circle
+		(at -15.24 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "464fba7b-ebe0-4fd9-9268-18a74cb2340c")
+	)
+	(pad "3" thru_hole circle
+		(at -12.7 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "749cbb9a-cc5b-4281-806e-08e9cf551017")
+	)
+	(pad "4" thru_hole circle
+		(at -10.16 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "747e7c7e-87b1-4e3b-b3ed-d299b12a33e2")
+	)
+	(pad "5" thru_hole circle
+		(at -7.62 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "890ea9d2-099e-4f9e-9b00-7ce3bac3c639")
+	)
+	(pad "6" thru_hole circle
+		(at -5.08 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "66ba44c0-a926-4c49-ba32-59fca57401e7")
+	)
+	(pad "7" thru_hole circle
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "110a1f36-aebc-4c69-9661-140065429463")
+	)
+	(pad "8" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b6f9349a-f624-4d7e-a802-ba6d229a70f1")
+	)
+	(pad "9" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1a5f5760-6f5c-401c-9f8b-9c1e8d7c1be1")
+	)
+	(pad "10" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "5c51ac4a-55c9-4665-bc49-7f0ea6260c1b")
+	)
+	(pad "11" thru_hole circle
+		(at 7.62 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4f9183e6-d6a4-403e-a488-3770c8a145d8")
+	)
+	(pad "12" thru_hole circle
+		(at 10.16 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6d04646d-814c-44aa-8229-4b7130857741")
+	)
+	(pad "13" thru_hole circle
+		(at 12.7 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "89234de5-8911-4251-aec1-3e32e8b01957")
+	)
+	(pad "14" thru_hole circle
+		(at 15.24 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "36715fd8-12d8-41c8-bbeb-a18f3daa63a0")
+	)
+	(pad "15" thru_hole circle
+		(at 17.78 0)
+		(size 2 2)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "45c91cbd-7a90-438c-a746-09e13a8b529a")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -13.89 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -11.35 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -8.81 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 21.67 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -6.27 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -3.73 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz -1.19 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 1.35 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 3.89 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 6.43 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 8.97 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 11.51 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 14.05 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 16.59 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${CUSTOM_3DMODEL_DIR}/P100-E2.STEP"
+		(offset
+			(xyz 19.13 3.96 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
