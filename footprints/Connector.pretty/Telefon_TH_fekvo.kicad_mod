@@ -73,7 +73,7 @@
 		(at -5.0038 -0.0254 180)
 		(size 2.54 2.54)
 		(drill 2.54)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "97d105fc-4271-40d9-83cb-d04d28af9f68")
 	)
@@ -81,7 +81,7 @@
 		(at 5.0038 -0.0254 180)
 		(size 2.54 2.54)
 		(drill 2.54)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "e7145019-e265-4ff9-ac0e-4050d6ace5d9")
 	)
@@ -292,4 +292,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/RJ11-TH_FRJ11008-1100K6K20.wrl"
+		(offset
+			(xyz 0 3.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
