@@ -1233,25 +1233,25 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
-			(at -4.572 7.62 0)
+		(property "Reference" "D?"
+			(at -5.08 7.62 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "BAR43S"
-			(at -4.572 -5.08 0)
+			(at -5.08 5.08 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DIODE_SOT23-123"
-			(at 0 0 0)
+		(property "Footprint" "0_Diode:DIODE_SOT23-123"
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1269,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky dual 0.1A 30V SOT-23"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 			)
 		)
 		(property "Order info" "Lomex 83-01-05"
-			(at -7.874 7.62 0)
+			(at -7.874 0 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(property "Leírás" "Diode Schottky dual 0.1A 30V SOT-23"
-			(at -7.874 7.62 0)
+			(at -7.874 0 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1309,7 +1309,7 @@
 		(symbol "BAR43S_1_0"
 			(polyline
 				(pts
-					(xy -3.81 10.16) (xy -2.794 10.16)
+					(xy -3.81 2.54) (xy -2.794 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1321,7 +1321,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 5.08) (xy -3.048 5.08)
+					(xy -3.81 -2.54) (xy -3.048 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1333,7 +1333,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 3.81) (xy -2.794 6.35)
+					(xy -2.794 -3.81) (xy -2.794 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1346,7 +1346,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 11.43) (xy -1.27 10.16) (xy -2.54 8.89) (xy -2.54 11.43)
+					(xy -2.54 3.81) (xy -1.27 2.54) (xy -2.54 1.27) (xy -2.54 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1359,7 +1359,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy -2.54 5.08) (xy -1.27 6.35) (xy -1.27 3.81)
+					(xy -1.27 -3.81) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy -1.27 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1372,7 +1372,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 8.89) (xy -1.016 11.43)
+					(xy -1.016 1.27) (xy -1.016 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1385,7 +1385,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 10.16) (xy -0.762 10.16)
+					(xy 1.27 2.54) (xy -0.762 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1397,7 +1397,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 10.16) (xy 1.778 10.16) (xy 1.778 5.08) (xy -1.27 5.08)
+					(xy 1.27 2.54) (xy 1.778 2.54) (xy 1.778 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1409,7 +1409,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 7.62) (xy 3.81 7.62)
+					(xy 2.54 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -1421,7 +1421,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 7.62) (xy 1.778 7.62)
+					(xy 3.81 0) (xy 1.778 0)
 				)
 				(stroke
 					(width 0)
@@ -1432,8 +1432,8 @@
 				)
 			)
 			(rectangle
-				(start 4.572 12.192)
-				(end -5.08 2.54)
+				(start 4.572 4.572)
+				(end -5.08 -5.08)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1443,7 +1443,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "0"
 					(effects
@@ -1461,7 +1461,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 -2.54 0)
 				(length 3.81)
 				(name "0"
 					(effects
@@ -1479,7 +1479,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 180)
+				(at 7.62 0 180)
 				(length 3.81)
 				(name "0"
 					(effects
@@ -2769,24 +2769,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "DN"
-			(at -1.27 1.27 0)
+		(property "Reference" "D?"
+			(at -2.54 10.16 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "BAV70"
-			(at -1.27 -3.81 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Diode:DIODE_SOT23-123"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2816,36 +2816,48 @@
 		(symbol "BAV70_1_0"
 			(polyline
 				(pts
+					(xy -5.08 5.08) (xy -2.54 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -4.318 7.366)
+				(end 5.334 -2.286)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
 					(xy -4.318 7.366) (xy -4.318 -2.286) (xy 5.334 -2.286) (xy 5.334 7.366) (xy -4.318 7.366)
 				)
 				(stroke
 					(width 0)
 					(type solid)
 					(color 0 156 202 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.556 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 5.08) (xy -2.54 5.08)
-				)
-				(stroke
-					(width 0)
-					(type solid)
 				)
 				(fill
 					(type none)
@@ -2951,29 +2963,17 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 5.334 7.366)
-				(end -4.318 -2.286)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 128 0 0 1)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -7.112 5.08 0)
+				(at -7.62 5.08 0)
 				(length 3.81)
-				(name "A1"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A1"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2982,16 +2982,16 @@
 				)
 			)
 			(pin passive line
-				(at -7.112 0 0)
+				(at -7.62 0 0)
 				(length 3.81)
-				(name "A2"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A2"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3000,16 +3000,16 @@
 				)
 			)
 			(pin passive line
-				(at 8.128 5.08 180)
+				(at 7.62 5.08 180)
 				(length 3.81)
-				(name "COM"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "COM"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7830,8 +7830,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -4.318 90)
-				(length 0.508)
+				(at 2.54 -5.08 90)
+				(length 1.27)
 				(name "NC"
 					(effects
 						(font
