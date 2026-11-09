@@ -50,6 +50,16 @@
 		)
 	)
 	(fp_line
+		(start -3.302 -1)
+		(end -0.9652 -0.9906)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a9fb08a-7298-4e4e-841c-1d8161e0580f")
+	)
+	(fp_line
 		(start -3.302 10.16)
 		(end -3.302 -1)
 		(stroke
@@ -68,16 +78,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6d562b62-5296-447c-a336-6a3000617120")
-	)
-	(fp_line
-		(start -3.2258 -1)
-		(end 21.3012 -1)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bc1cbca4-d6ba-4e27-99f2-a6fb148f1f05")
 	)
 	(fp_line
 		(start -2.032 16.764)
@@ -118,6 +118,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5b5a0ec4-ca6d-4ae5-8a82-4ee0a4e38a3c")
+	)
+	(fp_line
+		(start 19.0754 -1)
+		(end 21.3012 -1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc1cbca4-d6ba-4e27-99f2-a6fb148f1f05")
 	)
 	(fp_line
 		(start 19.4378 16.4592)
@@ -163,7 +173,7 @@
 		(at 2.16 7.32)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "8d74c141-20c3-4924-8e44-72fcf68aea06")
 	)
@@ -171,7 +181,7 @@
 		(at 15.84 7.32)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "6b43e0c4-a437-427d-bf0c-5f9b003c03f1")
 	)
