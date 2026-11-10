@@ -1,6 +1,6 @@
 # LCSC_import KiCad External Plugin
 
-Ez a wrapper a repó gyökerében lévő `kicad_lib_importer.py` importálót teszi elérhetővé a KiCad 9 PCB Editor `External Plugins` menüjéből. A plugin teljes csomagja az `external_plugins/LCSC_import/` könyvtárban van.
+Ez a wrapper a repó `scripts/kicad_lib_importer/kicad_lib_importer.py` importálóját teszi elérhetővé a KiCad 9 PCB Editor `External Plugins` menüjéből. A plugin teljes csomagja az `external_plugins/LCSC_import/` könyvtárban van.
 
 ## Telepítés KiCad 9-hez
 

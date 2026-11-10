@@ -10,10 +10,11 @@ from typing import Sequence
 
 
 PLUGIN_ROOT = Path(__file__).resolve().parents[2]
-IMPORTER_PATH = PLUGIN_ROOT / "kicad_lib_importer.py"
+IMPORTER_DIR = PLUGIN_ROOT / "scripts" / "kicad_lib_importer"
+IMPORTER_PATH = IMPORTER_DIR / "kicad_lib_importer.py"
 ICON_PATH = Path(__file__).resolve().with_name("LCSC_import.png")
-if str(PLUGIN_ROOT) not in sys.path:
-    sys.path.insert(0, str(PLUGIN_ROOT))
+if str(IMPORTER_DIR) not in sys.path:
+    sys.path.insert(0, str(IMPORTER_DIR))
 
 from kicad_lib_importer import (  # noqa: E402
     ImporterError,

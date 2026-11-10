@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Callable, Iterable, Sequence
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DOWNLOAD_DIR = Path.home() / "Documents" / "Kicad" / "easyeda2kicad"
 FOOTPRINTS_DIR = REPO_ROOT / "footprints"
 SYMBOLS_DIR = REPO_ROOT / "symbols"

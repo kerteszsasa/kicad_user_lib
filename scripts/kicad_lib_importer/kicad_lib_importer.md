@@ -7,13 +7,13 @@ Ez a repó egy olyan Python scriptet tartalmaz, amely az `easyeda2kicad` program
 LCSC cikkszámmal argumentumként:
 
 ```bash
-python3 kicad_lib_importer.py C123456
+python3 scripts/kicad_lib_importer/kicad_lib_importer.py C123456
 ```
 
 Argumentum nélkül a script indulás után bekéri a cikkszámot:
 
 ```bash
-python3 kicad_lib_importer.py
+python3 scripts/kicad_lib_importer/kicad_lib_importer.py
 ```
 
 A script az `easyeda2kicad` parancsot a PATH-ból használja, és a default kimeneti könyvtárból futtatja:
@@ -121,7 +121,7 @@ Hiba, felhasználói megszakítás vagy symbol-kihagyás esetén a letöltött f
 A standard library-alapú tesztek futtatása:
 
 ```bash
-python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s scripts/kicad_lib_importer/tests -v
 ```
 
 A tesztek valódi hálózati letöltés nélkül ellenőrzik a symbol-parszolást, a footprint- és modellútvonalakat, a célfájlok ütközéskezelését, a korábbi sikertelen futás felismerését és a sikeres takarítást.
