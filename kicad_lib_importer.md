@@ -125,3 +125,17 @@ python3 -m unittest discover -s tests -v
 ```
 
 A tesztek valódi hálózati letöltés nélkül ellenőrzik a symbol-parszolást, a footprint- és modellútvonalakat, a célfájlok ütközéskezelését, a korábbi sikertelen futás felismerését és a sikeres takarítást.
+
+## KiCad External Plugin
+
+A wrapper az `external_plugins/LCSC_import/` pluginmappában található. Ez a KiCad 9 PCB Editor `pcbnew.ActionPlugin` API-ját használja, grafikus `wx` ablakokkal váltja ki a parancssoros cikkszám-, footprint- és symbol-választást, valamint saját toolbar-ikont biztosít.
+
+A KiCad pluginmappájába symlinkkel telepíthető:
+
+```bash
+ln -sfn \
+  /home/kerteszs/hw/kicad_user_lib/external_plugins/LCSC_import \
+  /home/kerteszs/.local/share/kicad/9.0/scripting/plugins/LCSC_import
+```
+
+KiCad újraindítása után a plugin a `External Plugins → LCSC_import` menüben jelenik meg. Részletesebb telepítési leírás az `external_plugins/README.md` fájlban van.
